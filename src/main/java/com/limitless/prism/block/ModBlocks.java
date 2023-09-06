@@ -49,7 +49,7 @@ public class ModBlocks {
 
 
 
-    /* START Desert Plant */
+    /* START Desert 1 */
 
 
     public static final Block PALM_LOG = registerBlock("palm_log",
@@ -76,11 +76,11 @@ public class ModBlocks {
     public static final Block POTTED_GARDEN_CROTON = registerBlockWithoutBlockItem("potted_garden_croton",
             new FlowerPotBlock(GARDEN_CROTON, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM)));
 
-    /* END Desert Plant */
+    /* END Desert 1 */
 
 
 
-    /* START Desert */
+    /* START Desert 2 */
 
     public static final Block DESERT_BRICKS = registerBlock("desert_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE).sounds(BlockSoundGroup.DEEPSLATE)));
@@ -107,7 +107,7 @@ public class ModBlocks {
     public static final Block MARBLE_TILE_ARCH = registerBlock("marble_tile_arch",
             new MarbleTileArch(FabricBlockSettings.copyOf(Blocks.SANDSTONE).sounds(BlockSoundGroup.DEEPSLATE)));
 
-    /* END Desert */
+    /* END Desert 2 */
 
 
 

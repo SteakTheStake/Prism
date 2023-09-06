@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "prism:palm_planks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "CCC"
+  ],
+  "result": {
+    "count": 6,
+    "item": "prism:palm_slab"
+  },
+  "show_notification": true
+}

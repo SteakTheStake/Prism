@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "prism",
+	"version": "${version}",
+	"name": "Prism",
+	"description": "Minecraft Reimagined",
+	"authors": [
+		"StakeTheSteak"
+	],
+	"contact": {
+		"homepage": "https://www.limitlesstextures.com/",
+		"sources": "https://github.com/SteakTheStake/"
+	},
+	"license": "ARR",
+	"icon": "assets/prism/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.limitless.prism.Prism"
+		],
+		"fabric-datagen": [
+          "com.limitless.prism.PrismDataGenerator"
+		]
+	},
+	"mixins": [
+		"prism.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

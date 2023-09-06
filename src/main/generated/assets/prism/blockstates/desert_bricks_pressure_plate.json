@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "prism:block/desert_bricks_pressure_plate"
+    },
+    "powered=true": {
+      "model": "prism:block/desert_bricks_pressure_plate_down"
+    }
+  }
+}

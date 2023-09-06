@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "prism:castle_bricks"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "C  ",
+    "C  "
+  ],
+  "result": {
+    "item": "prism:castle_brick_arch"
+  },
+  "show_notification": true
+}

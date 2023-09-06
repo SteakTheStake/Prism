@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "prism:block/stone_tiles",
+    "side": "prism:block/stone_tiles",
+    "top": "prism:block/stone_tiles"
+  }
+}

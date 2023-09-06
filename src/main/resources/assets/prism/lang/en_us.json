@@ -1,0 +1,139 @@
+{
+  "item.prism.pile_of_gravel": "Pile of Gravel",
+  "item.prism.pile_of_sand": "Pile of Sand",
+  "item.prism.palm_sapling": "Palm Sapling",
+  "Item.prism.palm_sign": "Palm Sign",
+  "Item.prism.palm_hanging_sign": "Hanging Palm Sign",
+  "Item.prism.garden_croton": "Garden Croton",
+
+
+  "block.prism.castle_bricks": "Castle Bricks",
+  "block.prism.castle_brick_stairs": "Castle Brick Stairs",
+  "block.prism.castle_bricks_slab": "Castle Brick Slab",
+  "block.prism.castle_bricks_button": "Castle Brick Button",
+  "block.prism.castle_bricks_pressure_plate": "Castle Brick Pressure Plate",
+  "block.prism.castle_brick_arch": "Castle Brick Arch",
+  "block.prism.castle_brick_wall": "Castle Brick Wall",
+  "block.prism.stone_tiles": "Stone Tiles",
+  "block.prism.stone_tile_stairs": "Stone Tile Stairs",
+  "block.prism.stone_tile_slab": "Stone Tile Slab",
+  "block.prism.stone_tile_arch": "Stone Tile Arch",
+
+
+  "block.prism.palm_log": "Palm Log",
+  "block.prism.palm_wood": "Palm Wood",
+  "block.prism.stripped_palm_log": "Stripped Palm Log",
+  "block.prism.stripped_palm_wood": "Stripped Palm Wood",
+  "block.prism.palm_planks": "Palm Planks",
+  "block.prism.palm_stairs": "Palm Stairs",
+  "block.prism.palm_slab": "Palm Slab",
+  "block.prism.palm_leaves": "Palm Leaves",
+  "block.prism.palm_sapling": "Palm Sapling",
+  "block.prism.garden_croton": "Garden Croton",
+
+
+
+  "block.prism.desert_bricks": "Desert Bricks",
+  "block.prism.desert_brick_stairs": "Desert Brick Stairs",
+  "block.prism.desert_bricks_slab": "Desert Brick Slab",
+  "block.prism.desert_bricks_button": "Desert Brick Button",
+  "block.prism.desert_bricks_pressure_plate": "Desert Brick Pressure Plate",
+  "block.prism.desert_brick_arch": "Desert Brick Arch",
+  "block.prism.desert_brick_wall": "Desert Brick Wall",
+  "block.prism.marble_tiles": "Marble Tiles",
+  "block.prism.marble_tile_stairs": "Marble Tile Stairs",
+  "block.prism.marble_tile_slab": "Marble Tile Slab",
+  "block.prism.marble_tile_arch": "Marble Tile Arch",
+
+
+
+
+
+
+
+
+  "block.prism.dirty_cobblestone": "Dirty Cobblestone",
+  "block.prism.castle_block_top": "Castle Block Top",
+  "block.prism.castle_arch": "Castle Arch",
+  "block.prism.castle_brick_arch_bottom": "Castle Brick Arch Bottom",
+  "block.prism.castle_block_window": "Castle Block Window",
+  "block.prism.desert_floor": "Desert Floor",
+  "block.prism.desert_floor_tiles": "Desert Floor Tiles",
+  "block.prism.desert_brick_tiles": "Desert Brick Tiles",
+  "block.prism.red_desert_floor_tiles": "Red Desert Floor Tiles",
+  "block.prism.diagonal_marble_tiles": "Diagonal Marble Tiles",
+  "block.prism.checkered_marble_tiles": "Checkered Marble Tiles",
+  "block.prism.shop_cover_right": "Shop Cover Right",
+  "block.prism.shop_cover_middle": "Shop Cover Middle",
+  "block.prism.shop_cover_left": "Shop Cover Left",
+  "block.prism.wooden_wall_piece": "Wooden Wall Piece",
+  "block.prism.big_arch": "Big Arch",
+  "block.prism.desert_brick_top": "Desert Brick Top",
+  "block.prism.desert_brick_window": "Desert Brick Window",
+  "block.prism.thatched_roof": "Thatched Roof",
+  "block.prism.village_block": "Village Block",
+  "block.prism.dining_room_chair": "Dining Room Chair",
+  "block.prism.clover_patch": "Clover Patch",
+  "block.prism.barrel": "Barrel",
+  "block.prism.barrel_open": "Barrel Open",
+  "block.prism.stairs": "Stairs",
+  "block.prism.house_wall": "House Wall",
+  "block.prism.house_tudor_wall": "House Tudor Wall",
+  "block.prism.house_tudor_wall_2": "House Tudor Wall Extra",
+  "block.prism.wooden_floor": "Wooden Floor",
+  "block.prism.wooden_floor_2": "Wooden Floor 2",
+  "block.prism.wooden_wall": "Wooden Wall",
+  "block.prism.fence": "Wooden Fence",
+  "block.prism.breakfast_savory": "Breakfast Savory",
+  "block.prism.breakfast_sweet": "Breakfast Sweet",
+  "block.prism.grass": "Grass Terrain",
+  "block.prism.sand": "Sand Terrain",
+  "block.prism.stone": "Stone Terrain",
+  "block.prism.coarse_dirt": "Coarse Dirt Terrain",
+  "block.prism.grass_block": "Grass Terrain",
+  "block.prism.sand_block": "Sand Terrain",
+  "block.prism.stone_block": "Stone Terrain",
+  "block.prism.coarse_dirt_block": "Coarse Dirt Terrain",
+  "block.prism.mud_block": "Mud Terrain",
+  "block.prism.andesite_block": "Andesite Terrain",
+  "block.prism.diorite_block": "Diorite Terrain",
+  "block.prism.granite_block": "Granite Terrain",
+  "block.prism.mud": "Mud Terrain",
+  "block.prism.andesite": "Andesite Terrain",
+  "block.prism.diorite": "Diorite Terrain",
+  "block.prism.granite": "Granite Terrain",
+  "block.prism.big_oak_log": "Big Oak Log",
+  "block.prism.big_oak_branch": "Big Oak Branch",
+  "block.prism.big_palm_branch": "Big Palm Branch",
+  "block.prism.big_palm_branch2": "Big Palm Branch Two",
+  "block.prism.big_oak_branch2": "Big Oak Branch Curved",
+  "block.prism.big_oak_leaves": "Big Oak Leaves",
+  "block.prism.palm_log_big": "Palm Log",
+  "block.prism.palm_log_thin": "Palm Log Thin",
+  "block.prism.palm_leaves_top": "Palm Leaves Top",
+  "block.prism.big_torch": "Big Torch",
+  "block.prism.rope": "Rope",
+  "block.prism.clothes_1": "Rope & Clothes 1",
+  "block.prism.clothes_2": "Rope & Clothes 2",
+  "block.prism.clothes_3": "Rope & Clothes 3",
+  "block.prism.basket_of_potato": "Basket Of Potato",
+  "block.prism.basket_of_mango": "Basket Of Mango",
+  "block.prism.basket_of_apple": "Basket Of Apple",
+  "block.prism.basket_of_radish": "Basket Of Radish",
+  "block.prism.tropical_plant": "Big Oak Sapling",
+
+  "itemGroup.construction": "Construction Blocks",
+
+  "itemGroup.organic": "Organic Blocks",
+
+
+  "itemGroup.terrain": "Terrain Blocks",
+
+  "itemGroup.furniture": "Furniture Blocks",
+
+  "itemGroup.decoration": "Decoration Blocks",
+
+
+
+  "itemGroup.prism": "Prism Dimension"
+}

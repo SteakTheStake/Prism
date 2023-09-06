@@ -1,0 +1,156 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    },
+    {
+      "item": "prism:castle_bricks"
+    }
+  ],
+  "result": {
+    "item": "prism:castle_bricks_button"
+  }
+}

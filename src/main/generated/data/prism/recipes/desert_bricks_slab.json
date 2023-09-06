@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "prism:desert_bricks"
+    }
+  },
+  "pattern": [
+    "   ",
+    "   ",
+    "CCC"
+  ],
+  "result": {
+    "count": 6,
+    "item": "prism:desert_bricks_slab"
+  },
+  "show_notification": true
+}

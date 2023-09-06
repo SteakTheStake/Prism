@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "castle",
+  "ingredient": {
+    "item": "prism:pile_of_gravel"
+  },
+  "result": "prism:castle_bricks",
+  "count": 1
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "desert",
+  "ingredient": {
+    "item": "prism:pile_of_sand"
+  },
+  "result": "prism:desert_bricks",
+  "count": 1
+}

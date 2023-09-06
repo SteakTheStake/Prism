@@ -20,6 +20,8 @@ public class ModPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> CROTON_PLACED_KEY = registerKey("garden_croton_placed");
 
+    public static final RegistryKey<PlacedFeature> TALL_CROTON_PLACED_KEY = registerKey("tall_garden_croton_placed");
+
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
@@ -28,6 +30,9 @@ public class ModPlacedFeatures {
                         PlacedFeatures.createCountExtraModifier(1, 0.1f, 2), ModBlocks.PALM_SAPLING));
 
         register(context, CROTON_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.CROTON_KEY),
+                RarityFilterPlacementModifier.of(4), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
+
+        register(context, TALL_CROTON_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.TALL_CROTON_KEY),
                 RarityFilterPlacementModifier.of(4), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
 
     }

@@ -7,8 +7,8 @@ import net.minecraft.block.sapling.SaplingGenerator;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
 
-public class ModSaplingBlock extends SaplingBlock {
-    public ModSaplingBlock(SaplingGenerator generator, Settings settings) {
+public class ModFlowerBlock extends SaplingBlock {
+    public ModFlowerBlock(SaplingGenerator generator, Settings settings) {
         super(generator, settings);
     }
 

@@ -43,6 +43,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MARBLE_TILE_SLAB);
                         entries.add(ModBlocks.MARBLE_TILE_ARCH);
                         entries.add(ModBlocks.PALM_LOG);
+                        entries.add(ModBlocks.THIN_PALM_LOG);
+                        entries.add(ModBlocks.THIN_STRIPPED_PALM_LOG);
                         entries.add(ModBlocks.PALM_WOOD);
                         entries.add(ModBlocks.STRIPPED_PALM_LOG);
                         entries.add(ModBlocks.STRIPPED_PALM_WOOD);
@@ -61,6 +63,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALM_LEAVES);
                         entries.add(ModBlocks.PALM_SAPLING);
                         entries.add(ModBlocks.GARDEN_CROTON);
+                        entries.add(ModBlocks.TALL_GARDEN_CROTON);
 
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());

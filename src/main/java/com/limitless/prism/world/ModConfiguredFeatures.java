@@ -19,6 +19,8 @@ public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> CROTON_KEY = registerKey("croton");
 
+    public static final RegistryKey<ConfiguredFeature<?, ?>> TALL_CROTON_KEY = registerKey("tall_croton");
+
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, PALM_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.PALM_LOG),
@@ -29,6 +31,9 @@ public class ModConfiguredFeatures {
 
         register(context, CROTON_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GARDEN_CROTON)))));
+
+        register(context, TALL_CROTON_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.TALL_GARDEN_CROTON)))));
     }
 
 

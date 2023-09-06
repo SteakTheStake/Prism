@@ -1,15 +1,12 @@
 package com.limitless.prism.block;
 
 import com.limitless.prism.Prism;
-import com.limitless.prism.block.custom.CastleBrickArch;
-import com.limitless.prism.block.custom.DesertBrickArch;
-import com.limitless.prism.block.custom.MarbleTileArch;
-import com.limitless.prism.block.custom.StoneTileArch;
+import com.limitless.prism.block.custom.*;
+import com.limitless.prism.world.flower.PalmFlowerGenerator;
 import com.limitless.prism.world.tree.PalmSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -54,6 +51,10 @@ public class ModBlocks {
 
     public static final Block PALM_LOG = registerBlock("palm_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+    public static final Block THIN_PALM_LOG = registerBlock("thin_palm_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+    public static final Block THIN_STRIPPED_PALM_LOG = registerBlock("thin_stripped_palm_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
     public static final Block PALM_WOOD = registerBlock("palm_wood",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
     public static final Block STRIPPED_PALM_LOG = registerBlock("stripped_palm_log",
@@ -69,10 +70,12 @@ public class ModBlocks {
     public static final Block PALM_LEAVES = registerBlock("palm_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.AZALEA_LEAVES).strength(1f)));
     public static final Block PALM_SAPLING = registerBlock("palm_sapling",
-            new SaplingBlock(new PalmSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
+            new ModSaplingBlock(new PalmSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
 
     public static final Block GARDEN_CROTON = registerBlock("garden_croton",
-            new FlowerBlock(StatusEffects.LUCK, 4, FabricBlockSettings.copyOf(Blocks.ALLIUM)));
+            new ModFlowerBlock(new PalmFlowerGenerator(), FabricBlockSettings.copyOf(Blocks.ALLIUM)));
+    public static final Block TALL_GARDEN_CROTON = registerBlock("tall_garden_croton",
+            new ModFlowerBlock(new PalmFlowerGenerator(), FabricBlockSettings.copyOf(Blocks.ALLIUM)));
     public static final Block POTTED_GARDEN_CROTON = registerBlockWithoutBlockItem("potted_garden_croton",
             new FlowerPotBlock(GARDEN_CROTON, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM)));
 

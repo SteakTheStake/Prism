@@ -21,6 +21,8 @@
 
 
   "block.prism.palm_log": "Palm Log",
+  "block.prism.thin_palm_log": "Thin Palm Log",
+  "block.prism.thin_stripped_palm_log": "Thin Stripped Palm Log",
   "block.prism.palm_wood": "Palm Wood",
   "block.prism.stripped_palm_log": "Stripped Palm Log",
   "block.prism.stripped_palm_wood": "Stripped Palm Wood",

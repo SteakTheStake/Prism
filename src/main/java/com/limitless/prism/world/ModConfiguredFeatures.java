@@ -48,7 +48,7 @@ public class ModConfiguredFeatures {
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.TALL_GARDEN_CROTON)))));
 
         register(context, ROLLING_HILLS7, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 7))))));
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 7))).toPlace(BlockPredicate.allOf(BlockPredicate.anyOf())))));
         register(context, ROLLING_HILLS6, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 6))))));
         register(context, ROLLING_HILLS5, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
@@ -60,9 +60,8 @@ public class ModConfiguredFeatures {
         register(context, ROLLING_HILLS2, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 2))))));
         register(context, ROLLING_HILLS1, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 1)))/*.toPlace(BlockPredicate.allOf(BlockPredicate.anyOf()))*/)));
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 1))))));
     }
-
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(Prism.MOD_ID, name));

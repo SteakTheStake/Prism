@@ -3,7 +3,7 @@ package com.limitless.prism.block;
 import com.limitless.prism.Prism;
 import com.limitless.prism.block.custom.*;
 import com.limitless.prism.block.custom.SandTerrain;
-import com.limitless.prism.world.flower.PalmFlowerGenerator;
+import com.limitless.prism.world.flower.CrotonFlowerGenerator;
 import com.limitless.prism.world.tree.PalmSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -74,9 +74,9 @@ public class ModBlocks {
             new ModSaplingBlock(new PalmSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
 
     public static final Block GARDEN_CROTON = registerBlock("garden_croton",
-            new ModFlowerBlock(new PalmFlowerGenerator(), FabricBlockSettings.copyOf(Blocks.ALLIUM)));
+            new ModFlowerBlock(new CrotonFlowerGenerator(), FabricBlockSettings.copyOf(Blocks.ALLIUM)));
     public static final Block TALL_GARDEN_CROTON = registerBlock("tall_garden_croton",
-            new ModFlowerBlock(new PalmFlowerGenerator(), FabricBlockSettings.copyOf(Blocks.ALLIUM)));
+            new ModFlowerBlock(new CrotonFlowerGenerator(), FabricBlockSettings.copyOf(Blocks.ALLIUM)));
     public static final Block POTTED_GARDEN_CROTON = registerBlockWithoutBlockItem("potted_garden_croton",
             new FlowerPotBlock(GARDEN_CROTON, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM)));
 

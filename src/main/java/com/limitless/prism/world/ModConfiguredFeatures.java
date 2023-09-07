@@ -9,7 +9,9 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
-import net.minecraft.world.gen.blockpredicate.BlockPredicate;
+import net.minecraft.world.gen.blockpredicate.BlockPredicateType;
+import net.minecraft.world.gen.blockpredicate.MatchingBlockTagPredicate;
+import net.minecraft.world.gen.blockpredicate.OffsetPredicate;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
@@ -48,7 +50,7 @@ public class ModConfiguredFeatures {
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.TALL_GARDEN_CROTON)))));
 
         register(context, ROLLING_HILLS7, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 7))).toPlace(BlockPredicate.allOf(BlockPredicate.anyOf())))));
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 7))))));
         register(context, ROLLING_HILLS6, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 6))))));
         register(context, ROLLING_HILLS5, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
@@ -62,6 +64,9 @@ public class ModConfiguredFeatures {
         register(context, ROLLING_HILLS1, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 1))))));
     }
+
+    //not fully working yet
+    //.toPlace(BlockPredicateType.ALL_OF, BlockPredicateType.ANY_OF, BlockPredicateType.MATCHING_BLOCKS(new MatchingBlockTagPredicate(ModBlocks.GRASS_TERRAIN)), BlockPredicateType.MATCHING_BLOCKS(new OffsetPredicate(Blocks.GRASS_BLOCK.getDefaultState(), OffsetPredicate.BASE_CODEC)))
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(Prism.MOD_ID, name));

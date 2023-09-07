@@ -3,6 +3,7 @@ package com.limitless.prism.item;
 import com.limitless.prism.Prism;
 import com.limitless.prism.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -64,6 +65,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALM_SAPLING);
                         entries.add(ModBlocks.GARDEN_CROTON);
                         entries.add(ModBlocks.TALL_GARDEN_CROTON);
+
+                        /* ADD ITEMS & BLOCKS HERE */
+                    }).build());
+    public static final ItemGroup TERRAIN_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(Prism.MOD_ID, "terrain"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.terrain"))
+                    .icon(() -> new ItemStack(ModBlocks.GRASS_TERRAIN)).entries((displayContext, entries) -> {
+                        /* ADD ITEMS & BLOCKS HERE */
+
+                        entries.add(ModBlocks.GRASS_TERRAIN);
+                        entries.add(ModBlocks.SAND_TERRAIN);
 
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());

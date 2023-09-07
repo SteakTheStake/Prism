@@ -2,11 +2,14 @@ package com.limitless.prism.world;
 
 import com.limitless.prism.Prism;
 import com.limitless.prism.block.ModBlocks;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.state.property.Properties;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
+import net.minecraft.world.gen.blockpredicate.BlockPredicate;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
@@ -21,6 +24,15 @@ public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> TALL_CROTON_KEY = registerKey("tall_croton");
 
+
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS7 = registerKey("7");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS6 = registerKey("6");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS5 = registerKey("5");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS4 = registerKey("4");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS3 = registerKey("3");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS2 = registerKey("2");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS1 = registerKey("1");
+
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, PALM_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.PALM_LOG),
@@ -34,6 +46,21 @@ public class ModConfiguredFeatures {
 
         register(context, TALL_CROTON_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.TALL_GARDEN_CROTON)))));
+
+        register(context, ROLLING_HILLS7, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 7))))));
+        register(context, ROLLING_HILLS6, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 6))))));
+        register(context, ROLLING_HILLS5, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 5))))));
+        register(context, ROLLING_HILLS4, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 4))))));
+        register(context, ROLLING_HILLS3, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 3))))));
+        register(context, ROLLING_HILLS2, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 2))))));
+        register(context, ROLLING_HILLS1, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 1)))/*.toPlace(BlockPredicate.allOf(BlockPredicate.anyOf()))*/)));
     }
 
 

@@ -2,6 +2,7 @@ package com.limitless.prism.block;
 
 import com.limitless.prism.Prism;
 import com.limitless.prism.block.custom.*;
+import com.limitless.prism.block.custom.SandTerrain;
 import com.limitless.prism.world.flower.PalmFlowerGenerator;
 import com.limitless.prism.world.tree.PalmSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -112,6 +113,17 @@ public class ModBlocks {
 
     /* END Desert 2 */
 
+
+
+    /* START Terrain */
+
+
+    public static final Block GRASS_TERRAIN = registerBlock("grass_terrain",
+            new GrassTerrain(FabricBlockSettings.copyOf(Blocks.GRASS_BLOCK).sounds(BlockSoundGroup.GRASS)));
+    public static final Block SAND_TERRAIN = registerBlock("sand_terrain",
+            new SandTerrain(FabricBlockSettings.copyOf(Blocks.SAND).sounds(BlockSoundGroup.SAND)));
+
+    /* END Terrain */
 
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {

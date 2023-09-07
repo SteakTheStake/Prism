@@ -1,4 +1,4 @@
-// 1.20.1	2023-09-06T14:15:06.5281998	Prism/Model Definitions
+// 1.20.1	2023-09-06T18:03:26.8063761	Prism/Model Definitions
 93cedc06c81ce4440225ce9fc9fafcefe652e310 assets\prism\models\block\palm_slab.json
 0082259fa2b7e4172d0d27e9a44e951fd5ab769f assets\prism\models\block\castle_bricks_button_pressed.json
 7d940f3f14cf519f35fc46f7b4310743d2cc3c1a assets\prism\models\block\desert_bricks.json
@@ -27,8 +27,8 @@ f0f367b89c9003b6d1a78ebb3dd9f29e84edefe9 assets\prism\blockstates\desert_brick_w
 94e7f5203f1df8b7d17e9d99f5c3e5a7175ff8b5 assets\prism\models\item\palm_stairs.json
 a5f8c90a7f8816e0127990810d58b7872fcd0225 assets\prism\models\block\desert_bricks_button_inventory.json
 d720a19742f5df5752c35696d6ce7bec7bfb9b60 assets\prism\blockstates\marble_tile_stairs.json
-d0f32dd63e88bd0cdaccb11a43eef7207c5f5d4e assets\prism\blockstates\desert_bricks.json
 8004588d6c112f5ece8d45f06e9d031f727e2de3 assets\prism\blockstates\castle_brick_stairs.json
+d0f32dd63e88bd0cdaccb11a43eef7207c5f5d4e assets\prism\blockstates\desert_bricks.json
 859750eaeb1cb2267fae098b4ee3a7601a538cdc assets\prism\models\block\desert_brick_wall_side_tall.json
 c2b3f19323bb8e4d97c3438aa6dbc8a57e981149 assets\prism\blockstates\stone_tiles.json
 fb76a42d575a58f8b0a9df930fa0823817478913 assets\prism\models\item\garden_croton.json
@@ -88,8 +88,8 @@ e1ce58e89abe5dbd59570e3549ff1ed77ef4d2bb assets\prism\models\item\stone_tiles.js
 49f9bb53dbcfe203a01a58eb2458b7acfe32e95f assets\prism\models\block\desert_brick_wall_inventory.json
 ca68270b16dd02bd0faff33399b9e5575077d13e assets\prism\models\block\desert_brick_wall_post.json
 3f1774a8b3fe4373ecb037055b272a4b2d683bb3 assets\prism\blockstates\castle_bricks.json
-b0188f83fbdb5de8b20550f543515045359ca198 assets\prism\blockstates\castle_bricks_pressure_plate.json
 33d1dc7ede3511c366c4fbfb49ddeda1adf1ece0 assets\prism\blockstates\palm_stairs.json
+b0188f83fbdb5de8b20550f543515045359ca198 assets\prism\blockstates\castle_bricks_pressure_plate.json
 85f7a6e9dd35a22b17023feeb5b79cc15603ac9c assets\prism\models\block\castle_brick_wall_side.json
 f09131dd5421d0dfa09a4e94bc7a754919bb84ee assets\prism\models\block\marble_tiles.json
 0e54a9e17dd9ea64cc7dee18a640b1315a879c23 assets\prism\models\block\palm_stairs_outer.json

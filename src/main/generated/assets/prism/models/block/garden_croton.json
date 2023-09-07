@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cross",
+  "parent": "prism:block/garden_croton",
   "textures": {
     "cross": "prism:block/garden_croton"
   }

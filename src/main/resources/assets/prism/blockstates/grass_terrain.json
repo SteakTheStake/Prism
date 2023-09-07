@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "prism:block/grass_height2"
+    },
+    "layers=2": {
+      "model": "prism:block/grass_height4"
+    },
+    "layers=3": {
+      "model": "prism:block/grass_height6"
+    },
+    "layers=4": {
+      "model": "prism:block/grass_height8"
+    },
+    "layers=5": {
+      "model": "prism:block/grass_height10"
+    },
+    "layers=6": {
+      "model": "prism:block/grass_height12"
+    },
+    "layers=7": {
+      "model": "prism:block/grass_height14"
+    },
+    "layers=8": {
+      "model": "prism:block/grass_block"
+    }
+  }
+}

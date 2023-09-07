@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "prism:rolling_hills",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": 0.22,
+            "continentalness": 0.21,
+            "erosion": 0.2,
+            "weirdness": 0.2,
+            "depth": 0.2,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "prism:mountain",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0.2,
+            "continentalness": 0.2,
+            "erosion": 0.3,
+            "weirdness": 0.3,
+            "depth": 0.3,
+            "offset": 0.3
+          }
+        }
+      ]
+    }
+  }
+}

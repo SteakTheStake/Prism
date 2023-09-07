@@ -32,6 +32,9 @@
   "block.prism.palm_leaves": "Palm Leaves",
   "block.prism.palm_sapling": "Palm Sapling",
   "block.prism.garden_croton": "Garden Croton",
+  "block.prism.tall_garden_croton": "Tall Garden Croton",
+  "block.prism.grass_terrain": "Grass Terrain",
+  "block.prism.sand_terrain": "Sand Terrain",
 
 
 
@@ -88,9 +91,6 @@
   "block.prism.fence": "Wooden Fence",
   "block.prism.breakfast_savory": "Breakfast Savory",
   "block.prism.breakfast_sweet": "Breakfast Sweet",
-  "block.prism.grass": "Grass Terrain",
-  "block.prism.sand": "Sand Terrain",
-  "block.prism.stone": "Stone Terrain",
   "block.prism.coarse_dirt": "Coarse Dirt Terrain",
   "block.prism.grass_block": "Grass Terrain",
   "block.prism.sand_block": "Sand Terrain",
@@ -128,8 +128,8 @@
 
   "itemGroup.organic": "Organic Blocks",
 
-
   "itemGroup.terrain": "Terrain Blocks",
+
 
   "itemGroup.furniture": "Furniture Blocks",
 

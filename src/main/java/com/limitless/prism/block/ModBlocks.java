@@ -118,11 +118,11 @@ public class ModBlocks {
     /* START Terrain */
 
     public static final Block GRASS_TERRAIN = registerBlock("grass_terrain",
-            new GrassTerrain(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).sounds(BlockSoundGroup.GRASS)));
+            new GrassTerrain(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).sounds(BlockSoundGroup.GRASS).mapColor(MapColor.GREEN)));
     public static final Block SAND_TERRAIN = registerBlock("sand_terrain",
-            new SandTerrain(FabricBlockSettings.copyOf(Blocks.SAND).sounds(BlockSoundGroup.SAND)));
+            new SandTerrain(FabricBlockSettings.copyOf(Blocks.SAND).sounds(BlockSoundGroup.SAND).mapColor(MapColor.PALE_YELLOW)));
     public static final Block STONE_TERRAIN = registerBlock("stone_terrain",
-            new StoneTerrain(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE)));
+            new StoneTerrain(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.STONE).mapColor(MapColor.STONE_GRAY)));
 
     /* END Terrain */
 

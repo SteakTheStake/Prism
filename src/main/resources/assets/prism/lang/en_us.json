@@ -131,11 +131,7 @@
   "itemGroup.terrain": "Terrain Blocks",
 
 
-  "itemGroup.furniture": "Furniture Blocks",
+  "biome.prism.rolling_hills": "Rolling Hills",
 
-  "itemGroup.decoration": "Decoration Blocks",
-
-
-
-  "itemGroup.prism": "Prism Dimension"
+  "biome.prism.smooth_desert_dunes": "Smooth Desert Dunes"
 }

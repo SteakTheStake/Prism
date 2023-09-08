@@ -4,11 +4,9 @@ import com.limitless.prism.block.ModBlocks;
 import com.limitless.prism.item.ModItemGroups;
 import com.limitless.prism.item.ModItems;
 import com.limitless.prism.util.ModRegistries;
-import com.limitless.prism.world.biome.ModBiomes;
 import com.limitless.prism.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
-import net.minecraft.world.biome.Biome;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

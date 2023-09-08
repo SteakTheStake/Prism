@@ -76,6 +76,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.GRASS_TERRAIN);
                         entries.add(ModBlocks.SAND_TERRAIN);
+                        entries.add(ModBlocks.STONE_TERRAIN);
 
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());

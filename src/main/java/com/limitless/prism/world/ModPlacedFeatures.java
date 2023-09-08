@@ -19,15 +19,6 @@ public class ModPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> TALL_CROTON_PLACED_KEY = registerKey("tall_garden_croton_placed");
 
-
-    public static final RegistryKey<PlacedFeature> ROLLING_HILLS7 = registerKey("7");
-    public static final RegistryKey<PlacedFeature> ROLLING_HILLS6 = registerKey("6");
-    public static final RegistryKey<PlacedFeature> ROLLING_HILLS5 = registerKey("5");
-    public static final RegistryKey<PlacedFeature> ROLLING_HILLS4 = registerKey("4");
-    public static final RegistryKey<PlacedFeature> ROLLING_HILLS3 = registerKey("3");
-    public static final RegistryKey<PlacedFeature> ROLLING_HILLS2 = registerKey("2");
-    public static final RegistryKey<PlacedFeature> ROLLING_HILLS1 = registerKey("1");
-
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
@@ -40,28 +31,6 @@ public class ModPlacedFeatures {
 
         register(context, TALL_CROTON_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.TALL_CROTON_KEY),
                 RarityFilterPlacementModifier.of(4), SquarePlacementModifier.of(), PlacedFeatures.MOTION_BLOCKING_HEIGHTMAP, BiomePlacementModifier.of());
-
-
-        register(context, ROLLING_HILLS7, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ROLLING_HILLS7),
-                CountPlacementModifier.of(64), SquarePlacementModifier.of(), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP, BiomePlacementModifier.of());
-
-        register(context, ROLLING_HILLS6, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ROLLING_HILLS6),
-                CountPlacementModifier.of(64), SquarePlacementModifier.of(), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP, BiomePlacementModifier.of());
-
-        register(context, ROLLING_HILLS5, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ROLLING_HILLS5),
-                CountPlacementModifier.of(64), SquarePlacementModifier.of(), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP, BiomePlacementModifier.of());
-
-        register(context, ROLLING_HILLS4, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ROLLING_HILLS4),
-                CountPlacementModifier.of(64), SquarePlacementModifier.of(), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP, BiomePlacementModifier.of());
-
-        register(context, ROLLING_HILLS3, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ROLLING_HILLS3),
-                CountPlacementModifier.of(64), SquarePlacementModifier.of(), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP, BiomePlacementModifier.of());
-
-        register(context, ROLLING_HILLS2, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ROLLING_HILLS2),
-                CountPlacementModifier.of(64), SquarePlacementModifier.of(), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP, BiomePlacementModifier.of());
-
-        register(context, ROLLING_HILLS1, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ROLLING_HILLS1),
-                CountPlacementModifier.of(64), SquarePlacementModifier.of(), PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP, BiomePlacementModifier.of());
 
     }
 

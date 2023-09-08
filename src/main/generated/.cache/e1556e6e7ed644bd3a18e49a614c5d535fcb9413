@@ -1,4 +1,4 @@
-// 1.20.1	2023-09-06T18:03:26.8063761	Prism/Model Definitions
+// 1.20.1	2023-09-07T19:53:30.0921868	Prism/Model Definitions
 93cedc06c81ce4440225ce9fc9fafcefe652e310 assets\prism\models\block\palm_slab.json
 0082259fa2b7e4172d0d27e9a44e951fd5ab769f assets\prism\models\block\castle_bricks_button_pressed.json
 7d940f3f14cf519f35fc46f7b4310743d2cc3c1a assets\prism\models\block\desert_bricks.json
@@ -16,9 +16,9 @@ ad2480d876d1f64e67ac150bd447f7a5b2e0c206 assets\prism\models\block\desert_brick_
 8f5034459611a161c8530e6c5957668298aa6449 assets\prism\models\block\marble_tile_slab.json
 07ce6c617cae96f91df989caeba733a3cf946599 assets\prism\models\block\palm_stairs.json
 4007e0c8cd96889afb9fde299a3832378bd1bf56 assets\prism\models\item\desert_bricks_slab.json
-3afaecaee4f028c6071edc0a2c13b69e62466e86 assets\prism\blockstates\desert_bricks_pressure_plate.json
 47bb574a4bb9ecce6a7dd780a0845fb6617b0394 assets\prism\blockstates\marble_tile_slab.json
 f0f367b89c9003b6d1a78ebb3dd9f29e84edefe9 assets\prism\blockstates\desert_brick_wall.json
+3afaecaee4f028c6071edc0a2c13b69e62466e86 assets\prism\blockstates\desert_bricks_pressure_plate.json
 43d7b2a73806321b8be9031105fbc1e9250719af assets\prism\models\block\castle_brick_wall_post.json
 6c70e65f275452102e6c84e1901a4e0d4fd22bde assets\prism\models\block\desert_bricks_button.json
 3645300c0739ffd079c9aa9685d285c7ffd986bd assets\prism\models\block\marble_tile_stairs.json

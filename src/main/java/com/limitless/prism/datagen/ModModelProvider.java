@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.TexturedModel;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -27,7 +28,7 @@ public class ModModelProvider extends FabricModelProvider {
         stoneTilePool.slab(ModBlocks.STONE_TILE_SLAB);
 
 
-        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.GARDEN_CROTON, ModBlocks.POTTED_GARDEN_CROTON, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.GARDEN_CROTON, ModBlocks.POTTED_GARDEN_CROTON, BlockStateModelGenerator.TintType.TINTED);
 
 
         BlockStateModelGenerator.BlockTexturePool desertPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DESERT_BRICKS);
@@ -48,6 +49,9 @@ public class ModModelProvider extends FabricModelProvider {
 
         marbleTilePool.stairs(ModBlocks.MARBLE_TILE_STAIRS);
         marbleTilePool.slab(ModBlocks.MARBLE_TILE_SLAB);
+
+
+        //blockStateModelGenerator.registerSingleton(ModBlocks.GRASS_TERRAIN, TexturedModel.LEAVES);
 
     }
 

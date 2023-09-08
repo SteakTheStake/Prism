@@ -1,5 +1,5 @@
 {
-  "feature": "prism:7",
+  "feature": "prism:smooth_desert_dunes/7",
   "placement": [
     {
       "type": "minecraft:count",
@@ -11,9 +11,6 @@
     {
       "type": "minecraft:heightmap",
       "heightmap": "WORLD_SURFACE_WG"
-    },
-    {
-      "type": "minecraft:biome"
     }
   ]
 }

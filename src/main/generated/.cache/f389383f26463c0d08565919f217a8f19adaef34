@@ -1,4 +1,4 @@
-// 1.20.1	2023-09-06T18:03:26.8043761	Prism/Block Loot Tables
+// 1.20.1	2023-09-07T19:53:30.0891858	Prism/Block Loot Tables
 423de75897c6368043066491f062437d25125a5f data\prism\loot_tables\blocks\castle_bricks_slab.json
 f2d1a8bdac25e2271111a1366e3e78c7ea361e40 data\prism\loot_tables\blocks\castle_bricks_button.json
 3191e5c382a2a2e05e343f32ea91106a9d462412 data\prism\loot_tables\blocks\castle_brick_stairs.json
@@ -8,9 +8,9 @@ e8bfd81614950289c9a3489165d0d5b77c3b904a data\prism\loot_tables\blocks\desert_br
 27e9675d744660208b9d7c8ce19ea970e9303a62 data\prism\loot_tables\blocks\castle_bricks_pressure_plate.json
 8acc99d84fd48e746f0c93de3dc8281b6f231094 data\prism\loot_tables\blocks\stone_tile_stairs.json
 63a5b57333d02ce8cc17ae7242a0f0611eee028b data\prism\loot_tables\blocks\desert_brick_wall.json
-f5813a0498ccbf25e25d282bbd640a17836d0b65 data\prism\loot_tables\blocks\palm_stairs.json
 22163a68acf016562e7f6ea272bafb025dd1209a data\prism\loot_tables\blocks\desert_bricks_slab.json
 c48ab6ad26a8b2b4044265cbd2a1327590d0e1a9 data\prism\loot_tables\blocks\palm_slab.json
+f5813a0498ccbf25e25d282bbd640a17836d0b65 data\prism\loot_tables\blocks\palm_stairs.json
 d6e1bffd96bc072cf649d3470509101f8de1cbda data\prism\loot_tables\blocks\marble_tile_stairs.json
 827f6a04f06d1536a59837bf69571e4d91179cc7 data\prism\loot_tables\blocks\marble_tile_slab.json
 234559c91e117ec3285fcaa00c6a2d3d614bb0c2 data\prism\loot_tables\blocks\desert_bricks_pressure_plate.json

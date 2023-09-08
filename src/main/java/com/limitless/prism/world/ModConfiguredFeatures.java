@@ -27,14 +27,6 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> TALL_CROTON_KEY = registerKey("tall_croton");
 
 
-    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS7 = registerKey("7");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS6 = registerKey("6");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS5 = registerKey("5");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS4 = registerKey("4");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS3 = registerKey("3");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS2 = registerKey("2");
-    public static final RegistryKey<ConfiguredFeature<?, ?>> ROLLING_HILLS1 = registerKey("1");
-
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, PALM_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.PALM_LOG),
@@ -49,25 +41,9 @@ public class ModConfiguredFeatures {
         register(context, TALL_CROTON_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 6, 2, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.TALL_GARDEN_CROTON)))));
 
-        register(context, ROLLING_HILLS7, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 7))))));
-        register(context, ROLLING_HILLS6, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 6))))));
-        register(context, ROLLING_HILLS5, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 5))))));
-        register(context, ROLLING_HILLS4, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 4))))));
-        register(context, ROLLING_HILLS3, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 3))))));
-        register(context, ROLLING_HILLS2, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 2))))));
-        register(context, ROLLING_HILLS1, Feature.RANDOM_PATCH, new RandomPatchFeatureConfig(191, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.GRASS_TERRAIN.getDefaultState().with(Properties.LAYERS, 1))))));
     }
 
-    //not fully working yet
-    //.toPlace(BlockPredicateType.ALL_OF, BlockPredicateType.ANY_OF, BlockPredicateType.MATCHING_BLOCKS(new MatchingBlockTagPredicate(ModBlocks.GRASS_TERRAIN)), BlockPredicateType.MATCHING_BLOCKS(new OffsetPredicate(Blocks.GRASS_BLOCK.getDefaultState(), OffsetPredicate.BASE_CODEC)))
-
+    
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(Prism.MOD_ID, name));
     }

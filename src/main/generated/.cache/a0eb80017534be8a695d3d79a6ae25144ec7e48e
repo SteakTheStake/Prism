@@ -1,4 +1,4 @@
-// 1.20.1	2023-09-06T18:03:26.8053759	Prism/Recipes
+// 1.20.1	2023-09-07T19:53:30.0901866	Prism/Recipes
 a2e9ad2199eecc5df6d78a8807575f9808d7b100 data\prism\advancements\recipes\building_blocks\castle_brick_arch.json
 3d0debc363a2ccfa48a9e0566c7e3b4704966c6a data\prism\advancements\recipes\building_blocks\desert_bricks_slab.json
 1b1cb863313bf89db35321fc413d2a2bc5184375 data\prism\recipes\stone_tile_slab.json
@@ -19,8 +19,8 @@ db7f5a26d07156185c65c2205632e7cc708378ff data\prism\advancements\recipes\buildin
 70d2eb76fccccf4a32376c51e7c0d9250741b05f data\prism\recipes\palm_slab.json
 075093ddf8c2306afad2e031e645e79550288cf3 data\prism\advancements\recipes\building_blocks\castle_bricks_slab.json
 a97f3bdc221a3e76e5fa0d75816c5ecc60eff134 data\prism\advancements\recipes\building_blocks\castle_bricks_pressure_plate.json
-ddbf8c64507d3f51dbdcd555c239bb6f8c220ab1 data\prism\recipes\stone_tile_stairs.json
 b25efea988f3cbc1d63f5d16d58d8902d6d04890 data\prism\advancements\recipes\building_blocks\marble_tile_arch.json
+ddbf8c64507d3f51dbdcd555c239bb6f8c220ab1 data\prism\recipes\stone_tile_stairs.json
 529a2c27a40a704707d4e381797485e186b18c6d data\prism\advancements\recipes\building_blocks\desert_brick_arch.json
 b492a2935487bdf7cb5a4c1ac0e1cce1af51e8cf data\prism\recipes\marble_tile_stairs.json
 a4501618db0288245fd0e3c484372726e460fad3 data\prism\recipes\marble_tile_arch.json

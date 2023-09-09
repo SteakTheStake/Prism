@@ -51,8 +51,6 @@ public class ModModelProvider extends FabricModelProvider {
         marbleTilePool.slab(ModBlocks.MARBLE_TILE_SLAB);
 
 
-        //blockStateModelGenerator.registerSingleton(ModBlocks.GRASS_TERRAIN, TexturedModel.LEAVES);
-
     }
 
     @Override

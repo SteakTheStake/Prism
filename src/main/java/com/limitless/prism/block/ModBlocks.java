@@ -53,9 +53,9 @@ public class ModBlocks {
     public static final Block PALM_LOG = registerBlock("palm_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
     public static final Block THIN_PALM_LOG = registerBlock("thin_palm_log",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+            new ThinLog(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
     public static final Block THIN_STRIPPED_PALM_LOG = registerBlock("thin_stripped_palm_log",
-            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+            new ThinLog(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
     public static final Block PALM_WOOD = registerBlock("palm_wood",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
     public static final Block STRIPPED_PALM_LOG = registerBlock("stripped_palm_log",

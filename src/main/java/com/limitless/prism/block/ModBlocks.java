@@ -87,13 +87,13 @@ public class ModBlocks {
     /* START Decoration */
 
     public static final Block CHESS_SET = registerBlock("chess_set",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
+            new ChessSet(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
     public static final Block WOODEN_CRATE = registerBlock("wooden_crate",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
+            new WoodenCrate(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
     public static final Block TELESCOPE = registerBlock("telescope",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
+            new Telescope(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL)));
     public static final Block WOODEN_BASKET = registerBlock("wooden_basket",
-            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
+            new WoodenBasket(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD)));
 
     /* END Decoration */
 

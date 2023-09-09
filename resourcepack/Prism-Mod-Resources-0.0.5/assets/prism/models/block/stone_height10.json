@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"particle": "block/stone",
-		"texture": "block/stone"
+		"particle": "prism:block/stone",
+		"texture": "prism:block/stone"
 	},
 	"elements": [
 		{

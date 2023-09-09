@@ -68,6 +68,19 @@ public class ModItemGroups {
 
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());
+    public static final ItemGroup DECORATION_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(Prism.MOD_ID, "decoration"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.decoration"))
+                    .icon(() -> new ItemStack(ModBlocks.TELESCOPE)).entries((displayContext, entries) -> {
+                        /* ADD ITEMS & BLOCKS HERE */
+
+                        entries.add(ModBlocks.CHESS_SET);
+                        entries.add(ModBlocks.TELESCOPE);
+                        entries.add(ModBlocks.WOODEN_CRATE);
+                        entries.add(ModBlocks.WOODEN_BASKET);
+
+                        /* ADD ITEMS & BLOCKS HERE */
+                    }).build());
     public static final ItemGroup TERRAIN_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Prism.MOD_ID, "terrain"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.terrain"))

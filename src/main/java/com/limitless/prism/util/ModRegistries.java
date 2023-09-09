@@ -17,6 +17,11 @@ public class ModRegistries {
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.THIN_STRIPPED_PALM_LOG, 5, 5);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_PALM_WOOD, 5, 5);
 
+
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.CHESS_SET, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WOODEN_CRATE, 5, 5);
+        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.WOODEN_BASKET, 5, 5);
+
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_PLANKS, 5, 20);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALM_LEAVES, 30, 60);
     }

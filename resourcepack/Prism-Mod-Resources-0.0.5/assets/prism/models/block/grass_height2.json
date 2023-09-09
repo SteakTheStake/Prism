@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "block/thin_block",
 	"textures": {
 		"texture": "prism:block/grass_block_top",
 		"particle": "prism:block/grass",

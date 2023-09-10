@@ -65,4 +65,3 @@ public class ThinLog
         return (BlockState)this.getDefaultState().with(AXIS, ctx.getSide().getAxis());
     }
 }
-

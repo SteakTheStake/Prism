@@ -15,7 +15,7 @@ public class WoodenBasket
         extends Block {
 
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
-private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 14, 5, 16);
+private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 5, 14);
 
 
     public WoodenBasket(Settings settings) {

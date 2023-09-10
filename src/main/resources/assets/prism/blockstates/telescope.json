@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "prism:block/telescope"
+    },
+    "facing=south": {
+      "model": "prism:block/telescope",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prism:block/telescope",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "prism:block/telescope",
+      "y": 90
+    }
+  }
+}

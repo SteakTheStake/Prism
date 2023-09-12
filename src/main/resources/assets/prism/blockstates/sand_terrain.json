@@ -23,9 +23,6 @@
     },
     "layers=8": {
       "model": "prism:block/sand_block"
-    },
-    "inventory": {
-      "model": "prism:item/sand_block"
     }
   }
 }

@@ -23,9 +23,6 @@
     },
     "layers=8": {
       "model": "prism:block/grass_block"
-    },
-    "inventory": {
-      "model": "prism:item/grass_block"
     }
   }
 }

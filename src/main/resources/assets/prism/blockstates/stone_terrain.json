@@ -23,9 +23,6 @@
     },
     "layers=8": {
       "model": "prism:block/stone_block"
-    },
-    "inventory": {
-      "model": "prism:item/stone_block"
     }
   }
 }

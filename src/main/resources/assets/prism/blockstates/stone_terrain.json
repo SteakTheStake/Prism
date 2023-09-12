@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "prism:block/stone_height2"
+    },
+    "layers=2": {
+      "model": "prism:block/stone_height4"
+    },
+    "layers=3": {
+      "model": "prism:block/stone_height6"
+    },
+    "layers=4": {
+      "model": "prism:block/stone_height8"
+    },
+    "layers=5": {
+      "model": "prism:block/stone_height10"
+    },
+    "layers=6": {
+      "model": "prism:block/stone_height12"
+    },
+    "layers=7": {
+      "model": "prism:block/stone_height14"
+    },
+    "layers=8": {
+      "model": "prism:block/stone_block"
+    },
+    "inventory": {
+      "model": "prism:item/stone_block"
+    }
+  }
+}

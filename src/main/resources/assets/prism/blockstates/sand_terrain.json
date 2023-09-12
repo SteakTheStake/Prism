@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "prism:block/sand_height2"
+    },
+    "layers=2": {
+      "model": "prism:block/sand_height4"
+    },
+    "layers=3": {
+      "model": "prism:block/sand_height6"
+    },
+    "layers=4": {
+      "model": "prism:block/sand_height8"
+    },
+    "layers=5": {
+      "model": "prism:block/sand_height10"
+    },
+    "layers=6": {
+      "model": "prism:block/sand_height12"
+    },
+    "layers=7": {
+      "model": "prism:block/sand_height14"
+    },
+    "layers=8": {
+      "model": "prism:block/sand_block"
+    },
+    "inventory": {
+      "model": "prism:item/sand_block"
+    }
+  }
+}

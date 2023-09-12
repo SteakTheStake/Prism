@@ -52,6 +52,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALM_PLANKS);
                         entries.add(ModBlocks.PALM_STAIRS);
                         entries.add(ModBlocks.PALM_SLAB);
+                        entries.add(ModBlocks.BEACH_PEBBLES);
 
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());

@@ -73,6 +73,9 @@ public class ModBlocks {
     public static final Block PALM_SAPLING = registerBlock("palm_sapling",
             new ModSaplingBlock(new PalmSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
 
+    public static final Block BEACH_PEBBLES = registerBlock("beach_pebbles",
+            new Block(FabricBlockSettings.copyOf(Blocks.GRAVEL).sounds(BlockSoundGroup.GRAVEL).strength(4f)));
+
     public static final Block GARDEN_CROTON = registerBlock("garden_croton",
             new ModFlowerBlock(new CrotonFlowerGenerator(), FabricBlockSettings.copyOf(Blocks.ALLIUM)));
     public static final Block TALL_GARDEN_CROTON = registerBlock("tall_garden_croton",

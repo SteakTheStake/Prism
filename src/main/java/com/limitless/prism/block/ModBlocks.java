@@ -40,6 +40,8 @@ public class ModBlocks {
 
     public static final Block STONE_TILES = registerBlock("stone_tiles",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block LARGE_STONE_TILES = registerBlock("large_stone_tiles",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block STONE_TILE_STAIRS = registerBlock("stone_tile_stairs",
             new StairsBlock(ModBlocks.CASTLE_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block STONE_TILE_SLAB = registerBlock("stone_tile_slab",

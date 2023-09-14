@@ -32,6 +32,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STONE_TILE_STAIRS);
                         entries.add(ModBlocks.STONE_TILE_SLAB);
                         entries.add(ModBlocks.STONE_TILE_ARCH);
+                        entries.add(ModBlocks.LARGE_STONE_TILES);
 
                         entries.add(ModItems.PILE_OF_SAND);
                         entries.add(ModBlocks.DESERT_BRICKS);

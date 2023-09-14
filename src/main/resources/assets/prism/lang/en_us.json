@@ -2,12 +2,12 @@
   "item.prism.pile_of_gravel": "Pile of Gravel",
   "item.prism.pile_of_sand": "Pile of Sand",
   "item.prism.palm_sapling": "Palm Sapling",
-  "Item.prism.palm_sign": "Palm Sign",
-  "Item.prism.palm_hanging_sign": "Hanging Palm Sign",
   "Item.prism.garden_croton": "Garden Croton",
 
 
   "block.prism.castle_bricks": "Castle Bricks",
+  "block.prism.built_castle_brick_wall": "Built Castle Brick Wall",
+  "block.prism.built_castle_brick_floor": "Built Castle Brick Floor",
   "block.prism.castle_brick_stairs": "Castle Brick Stairs",
   "block.prism.castle_bricks_slab": "Castle Brick Slab",
   "block.prism.castle_bricks_button": "Castle Brick Button",
@@ -40,6 +40,8 @@
 
 
   "block.prism.desert_bricks": "Desert Bricks",
+  "block.prism.built_desert_brick_wall": "Built Desert Brick Wall",
+  "block.prism.built_desert_brick_floor": "Built Desert Brick Floor",
   "block.prism.desert_brick_stairs": "Desert Brick Stairs",
   "block.prism.desert_bricks_slab": "Desert Brick Slab",
   "block.prism.desert_bricks_button": "Desert Brick Button",

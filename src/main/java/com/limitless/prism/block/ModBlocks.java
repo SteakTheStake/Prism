@@ -20,6 +20,10 @@ public class ModBlocks {
 
     public static final Block CASTLE_BRICKS = registerBlock("castle_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block BUILT_CASTLE_BRICK_WALL = registerBlock("built_castle_brick_wall",
+            new BuiltCastleBrick(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block BUILT_CASTLE_BRICK_FLOOR = registerBlock("built_castle_brick_floor",
+            new BuiltCastleBrick(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block CASTLE_BRICK_STAIRS = registerBlock("castle_brick_stairs",
             new StairsBlock(ModBlocks.CASTLE_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block CASTLE_BRICK_WALL = registerBlock("castle_brick_wall",
@@ -106,6 +110,10 @@ public class ModBlocks {
 
     public static final Block DESERT_BRICKS = registerBlock("desert_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE).sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block BUILT_DESERT_BRICK_WALL = registerBlock("built_desert_brick_wall",
+            new BuiltDesertBricks(FabricBlockSettings.copyOf(Blocks.SANDSTONE).sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block BUILT_DESERT_BRICK_FLOOR = registerBlock("built_desert_brick_floor",
+            new BuiltDesertBricks(FabricBlockSettings.copyOf(Blocks.SANDSTONE).sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block DESERT_BRICK_STAIRS = registerBlock("desert_brick_stairs",
             new StairsBlock(ModBlocks.CASTLE_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.SANDSTONE).sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block DESERT_BRICK_WALL = registerBlock("desert_brick_wall",

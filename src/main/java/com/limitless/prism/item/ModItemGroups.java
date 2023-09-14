@@ -20,6 +20,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.PILE_OF_GRAVEL);
                         entries.add(ModBlocks.CASTLE_BRICKS);
+                        entries.add(ModBlocks.BUILT_CASTLE_BRICK_WALL);
+                        entries.add(ModBlocks.BUILT_CASTLE_BRICK_FLOOR);
                         entries.add(ModBlocks.CASTLE_BRICK_STAIRS);
                         entries.add(ModBlocks.CASTLE_BRICK_SLAB);
                         entries.add(ModBlocks.CASTLE_BRICK_WALL);
@@ -33,6 +35,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.PILE_OF_SAND);
                         entries.add(ModBlocks.DESERT_BRICKS);
+                        entries.add(ModBlocks.BUILT_DESERT_BRICK_WALL);
+                        entries.add(ModBlocks.BUILT_DESERT_BRICK_FLOOR);
                         entries.add(ModBlocks.DESERT_BRICK_STAIRS);
                         entries.add(ModBlocks.DESERT_BRICK_SLAB);
                         entries.add(ModBlocks.DESERT_BRICK_WALL);

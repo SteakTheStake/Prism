@@ -26,7 +26,7 @@ public class Telescope
         extends Block {
 
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
-    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(6, 0, 6, 10, 16, 10);
 
 
 

@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "plantsjunk:block/rotten_slab"
+      "model": "prism:block/rotten_slab"
     },
     "type=double": {
-      "model": "plantsjunk:block/rotten_planks"
+      "model": "prism:block/rotten_planks"
     },
     "type=top": {
-      "model": "plantsjunk:block/rotten_slab_top"
+      "model": "prism:block/rotten_slab_top"
     }
   }
 }

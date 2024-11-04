@@ -79,7 +79,7 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
-      "plantsjunk:moss_patch_placed",
+      "prism:moss_patch_placed",
       "minecraft:forest_flowers",
       "minecraft:trees_birch_and_oak",
       "minecraft:flower_default",
@@ -90,9 +90,9 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "plantsjunk:disk_rooted_dirt",
-      "plantsjunk:moss_block_patch",
-      "plantsjunk:undergrowth_patch_placed"
+      "prism:disk_rooted_dirt",
+      "prism:moss_block_patch",
+      "prism:undergrowth_patch_placed"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -32,7 +32,7 @@
       "minecraft:lake_lava_surface"
     ],
     [
-      "plantsjunk:birch_forest_rock",
+      "prism:birch_forest_rock",
       "minecraft:amethyst_geode"
     ],
     [
@@ -79,7 +79,7 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
-      "plantsjunk:moss_patch_placed",
+      "prism:moss_patch_placed",
       "minecraft:forest_flowers",
       "minecraft:trees_birch",
       "minecraft:flower_default",
@@ -90,10 +90,10 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "plantsjunk:disk_rooted_dirt",
-      "plantsjunk:moss_block_patch",
-      "plantsjunk:callalily_placed",
-      "plantsjunk:undergrowth_patch_placed"
+      "prism:disk_rooted_dirt",
+      "prism:moss_block_patch",
+      "prism:callalily_placed",
+      "prism:undergrowth_patch_placed"
     ],
     [
       "minecraft:freeze_top_layer"

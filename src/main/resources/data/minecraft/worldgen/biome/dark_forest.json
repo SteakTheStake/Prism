@@ -87,11 +87,11 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "plantsjunk:disk_rooted_dirt",
-      "plantsjunk:moss_block_patch",
-      "plantsjunk:flower_columbine",
-      "plantsjunk:disk_rot_dirt",
-      "plantsjunk:undergrowth_patch_placed"
+      "prism:disk_rooted_dirt",
+      "prism:moss_block_patch",
+      "prism:flower_columbine",
+      "prism:disk_rot_dirt",
+      "prism:undergrowth_patch_placed"
     ],
     [
       "minecraft:freeze_top_layer"

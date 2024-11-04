@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "plantsjunk:rotten_log",
-    "plantsjunk:rotten_wood",
-    "plantsjunk:stripped_rotten_log",
-    "plantsjunk:stripped_rotten_wood"
+    "prism:rotten_log",
+    "prism:rotten_wood",
+    "prism:stripped_rotten_log",
+    "prism:stripped_rotten_wood"
   ]
 }

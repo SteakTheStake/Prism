@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "R": {
-      "item": "plantsjunk:rotten_planks"
+      "item": "prism:rotten_planks"
     },
     "X": {
       "item": "minecraft:stick"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 3,
-    "item": "plantsjunk:rotten_sign"
+    "item": "prism:rotten_sign"
   }
 }

@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "plantsjunk:block/rotten_log_item",
+      "model": "prism:block/rotten_log_item",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "plantsjunk:block/rotten_log_item"
+      "model": "prism:block/rotten_log_item"
     },
     "axis=z": {
-      "model": "plantsjunk:block/rotten_log_item",
+      "model": "prism:block/rotten_log_item",
       "x": 90
     }
   }

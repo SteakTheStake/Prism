@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "plantsjunk:rotten_planks"
+          "name": "prism:rotten_planks"
         }
       ],
       "rolls": 1.0

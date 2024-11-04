@@ -1,5 +1,5 @@
 {
-  "feature": "plantsjunk:disk_rot_dirt",
+  "feature": "prism:disk_rot_dirt",
   "placement": [
     {
       "type": "minecraft:rarity_filter",

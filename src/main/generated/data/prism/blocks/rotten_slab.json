@@ -11,7 +11,7 @@
               "add": false,
               "conditions": [
                 {
-                  "block": "plantsjunk:rotten_slab",
+                  "block": "prism:rotten_slab",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
@@ -25,7 +25,7 @@
               "function": "minecraft:explosion_decay"
             }
           ],
-          "name": "plantsjunk:rotten_slab"
+          "name": "prism:rotten_slab"
         }
       ],
       "rolls": 1.0

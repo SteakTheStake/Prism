@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "plantsjunk:item/rotten_door"
+    "layer0": "prism:item/rotten_door"
   }
 }

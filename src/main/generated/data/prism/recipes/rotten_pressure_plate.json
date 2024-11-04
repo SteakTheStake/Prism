@@ -3,13 +3,13 @@
   "category": "redstone",
   "key": {
     "R": {
-      "item": "plantsjunk:rotten_planks"
+      "item": "prism:rotten_planks"
     }
   },
   "pattern": [
     "RR"
   ],
   "result": {
-    "item": "plantsjunk:rotten_pressure_plate"
+    "item": "prism:rotten_pressure_plate"
   }
 }

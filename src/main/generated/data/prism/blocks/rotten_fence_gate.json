@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "plantsjunk:rotten_fence_gate"
+          "name": "prism:rotten_fence_gate"
         }
       ],
       "rolls": 1.0

@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "R": {
-      "item": "plantsjunk:stripped_rotten_log"
+      "item": "prism:stripped_rotten_log"
     },
     "X": {
       "item": "minecraft:chain"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 6,
-    "item": "plantsjunk:rotten_hanging_sign"
+    "item": "prism:rotten_hanging_sign"
   }
 }

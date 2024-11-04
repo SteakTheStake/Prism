@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"5": "plantsjunk:block/rotten_log_uv",
-		"particle": "plantsjunk:block/stripped_rotten_log_top"
+		"5": "prism:block/rotten_log_uv",
+		"particle": "prism:block/stripped_rotten_log_top"
 	},
 	"elements": [
 		{

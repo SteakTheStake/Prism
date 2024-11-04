@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "plantsjunk:block/callalily_pink_bottom"
+    "cross": "prism:block/callalily_pink_bottom"
   }
 }

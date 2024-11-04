@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "plantsjunk:callalily_lilac",
+              "block": "prism:callalily_lilac",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "plantsjunk:callalily_lilac"
+          "name": "prism:callalily_lilac"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "plantsjunk:blocks/callalily_lilac"
+  "random_sequence": "prism:blocks/callalily_lilac"
 }

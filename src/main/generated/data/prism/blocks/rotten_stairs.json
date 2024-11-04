@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "plantsjunk:rotten_stairs"
+          "name": "prism:rotten_stairs"
         }
       ],
       "rolls": 1.0

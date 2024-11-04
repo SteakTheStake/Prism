@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "plantsjunk:block/rotten_planks"
+      "model": "prism:block/rotten_planks"
     }
   }
 }

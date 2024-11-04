@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "plantsjunk:block/ivy",
-		"particle": "plantsjunk:block/ivy"
+		"0": "prism:block/ivy",
+		"particle": "prism:block/ivy"
 	},
 	"elements": [
 		{

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_up",
   "textures": {
-    "texture": "plantsjunk:block/rotten_planks"
+    "texture": "prism:block/rotten_planks"
   }
 }

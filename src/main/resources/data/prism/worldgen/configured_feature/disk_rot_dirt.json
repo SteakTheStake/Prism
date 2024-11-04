@@ -8,7 +8,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "plantsjunk:rot_block"
+              "Name": "prism:rot_block"
             }
           }
         }

@@ -9,7 +9,7 @@ group = project.maven_group
 base {
 	archivesName = project.archives_base_name
 }
-
+ 
 repositories {
 	// Consolidated repositories
 	maven { url "https://maven.fabricmc.net/" }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "plantsjunk:block/rotten_standing_sign"
+      "model": "prism:block/rotten_standing_sign"
     }
   }
 }

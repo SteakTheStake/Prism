@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "plantsjunk:rotten_wood"
+          "name": "prism:rotten_wood"
         }
       ],
       "rolls": 1.0

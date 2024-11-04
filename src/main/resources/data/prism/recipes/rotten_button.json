@@ -4,11 +4,11 @@
   "group": "planks",
   "ingredients": [
     {
-      "item": "plantsjunk:rotten_planks"
+      "item": "prism:rotten_planks"
     }
   ],
   "result": {
     "count": 1,
-    "item": "plantsjunk:rotten_button"
+    "item": "prism:rotten_button"
   }
 }

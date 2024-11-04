@@ -1,21 +1,21 @@
 {
   "replace": false,
   "values": [
-    "plantsjunk:rotten_planks",
-    "plantsjunk:rotten_door",
-    "plantsjunk:rotten_trapdoor",
-    "plantsjunk:rotten_fence",
-    "plantsjunk:rotten_fence_gate",
-    "plantsjunk:rotten_slab",
-    "plantsjunk:rotten_stairs",
-    "plantsjunk:rotten_wall_sign",
-    "plantsjunk:rotten_standing_sign",
-    "plantsjunk:rotten_hanging_sign",
-    "plantsjunk:rotten_wall_hanging_sign",
-    "plantsjunk:rotten_log",
-    "plantsjunk:rotten_wood",
-    "plantsjunk:stripped_rotten_log",
-    "plantsjunk:stripped_rotten_wood",
-    "plantsjunk:shelf_mushroom"
+    "prism:rotten_planks",
+    "prism:rotten_door",
+    "prism:rotten_trapdoor",
+    "prism:rotten_fence",
+    "prism:rotten_fence_gate",
+    "prism:rotten_slab",
+    "prism:rotten_stairs",
+    "prism:rotten_wall_sign",
+    "prism:rotten_standing_sign",
+    "prism:rotten_hanging_sign",
+    "prism:rotten_wall_hanging_sign",
+    "prism:rotten_log",
+    "prism:rotten_wood",
+    "prism:stripped_rotten_log",
+    "prism:stripped_rotten_wood",
+    "prism:shelf_mushroom"
   ]
 }

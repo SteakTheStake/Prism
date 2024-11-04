@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [18, 18],
 	"textures": {
-		"3": "plantsjunk:block/cocoon_stage_3",
-		"particle": "plantsjunk:block/cocoon_stage_3"
+		"3": "prism:block/cocoon_stage_3",
+		"particle": "prism:block/cocoon_stage_3"
 	},
 	"elements": [
 		{

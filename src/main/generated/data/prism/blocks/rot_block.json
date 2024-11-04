@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "plantsjunk:rot_block"
+          "name": "prism:rot_block"
         }
       ],
       "rolls": 1.0

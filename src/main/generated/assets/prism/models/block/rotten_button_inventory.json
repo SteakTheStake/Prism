@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button_inventory",
   "textures": {
-    "texture": "plantsjunk:block/rotten_planks"
+    "texture": "prism:block/rotten_planks"
   }
 }

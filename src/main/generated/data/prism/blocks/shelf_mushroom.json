@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "plantsjunk:shelf_mushroom"
+          "name": "prism:shelf_mushroom"
         }
       ],
       "rolls": 1.0

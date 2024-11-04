@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "plantsjunk:cocoon_block"
+          "name": "prism:cocoon_block"
         }
       ],
       "rolls": 1.0

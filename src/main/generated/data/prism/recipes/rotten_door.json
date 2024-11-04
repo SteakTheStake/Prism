@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "R": {
-      "item": "plantsjunk:rotten_planks"
+      "item": "prism:rotten_planks"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 3,
-    "item": "plantsjunk:rotten_door"
+    "item": "prism:rotten_door"
   }
 }

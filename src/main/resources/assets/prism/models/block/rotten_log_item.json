@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "plantsjunk:block/rotten_log_top",
-    "side": "plantsjunk:block/rotten_log"
+    "end": "prism:block/rotten_log_top",
+    "side": "prism:block/rotten_log"
   }
 }

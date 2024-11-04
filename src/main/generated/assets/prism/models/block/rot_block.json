@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "plantsjunk:block/rot_block"
+    "all": "prism:block/rot_block"
   }
 }

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "plantsjunk:rotten_door",
-    "plantsjunk:rotten_trapdoor"
+    "prism:rotten_door",
+    "prism:rotten_trapdoor"
   ]
 }

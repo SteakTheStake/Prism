@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "plantsjunk:block/rot_block"
+      "model": "prism:block/rot_block"
     }
   }
 }

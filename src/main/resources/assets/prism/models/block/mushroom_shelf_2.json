@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "plantsjunk:block/mushroom_shelf_2",
-		"particle": "plantsjunk:block/mushroom_shelf_2"
+		"1": "prism:block/mushroom_shelf_2",
+		"particle": "prism:block/mushroom_shelf_2"
 	},
 	"elements": [
 		{

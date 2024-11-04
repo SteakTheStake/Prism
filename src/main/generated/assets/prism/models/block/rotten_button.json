@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button",
   "textures": {
-    "texture": "plantsjunk:block/rotten_planks"
+    "texture": "prism:block/rotten_planks"
   }
 }

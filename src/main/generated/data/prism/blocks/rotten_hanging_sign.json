@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "plantsjunk:rotten_hanging_sign"
+          "name": "prism:rotten_hanging_sign"
         }
       ],
       "rolls": 1.0

@@ -13,18 +13,18 @@
           "type": "minecraft:item",
           "conditions": [
             {
-              "block": "plantsjunk:callalily_yellow",
+              "block": "prism:callalily_yellow",
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
               }
             }
           ],
-          "name": "plantsjunk:callalily_yellow"
+          "name": "prism:callalily_yellow"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "plantsjunk:blocks/callalily_yellow"
+  "random_sequence": "prism:blocks/callalily_yellow"
 }

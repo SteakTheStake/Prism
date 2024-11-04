@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "plantsjunk:rotten_sign"
+          "name": "prism:rotten_sign"
         }
       ],
       "rolls": 1.0

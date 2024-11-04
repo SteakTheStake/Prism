@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_hanging_lantern",
   "textures": {
-    "lantern": "plantsjunk:block/firefly_bottle_hanging"
+    "lantern": "prism:block/firefly_bottle_hanging"
   }
 }

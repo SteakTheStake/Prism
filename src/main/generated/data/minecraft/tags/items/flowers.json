@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "plantsjunk:columbine",
-    "plantsjunk:callalily_lilac",
-    "plantsjunk:callalily_yellow",
-    "plantsjunk:callalily_purple",
-    "plantsjunk:callalily_white",
-    "plantsjunk:callalily_pink"
+    "prism:columbine",
+    "prism:callalily_lilac",
+    "prism:callalily_yellow",
+    "prism:callalily_purple",
+    "prism:callalily_white",
+    "prism:callalily_pink"
   ]
 }

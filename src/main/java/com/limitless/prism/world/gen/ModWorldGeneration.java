@@ -7,5 +7,7 @@ public class ModWorldGeneration {
 
         ModFlowerGeneration.generateFlowers();
 
+        ModEntitySpawn.addEntitySpawn();
+
     }
 }

@@ -3,8 +3,10 @@ package com.limitless.prism.item;
 import com.limitless.prism.Prism;
 import com.limitless.prism.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -58,6 +60,15 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALM_STAIRS);
                         entries.add(ModBlocks.PALM_SLAB);
                         entries.add(ModBlocks.BEACH_PEBBLES);
+                        entries.add(com.limitless.prism.block.ModBlocks.FIREFLY_BOTTLE);
+                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_PLANKS);
+                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_DOOR);
+                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_TRAPDOOR);
+                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_FENCE);
+                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_FENCE_GATE);
+                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_SLAB);
+                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_STAIRS);
+                        entries.add(com.limitless.prism.item.ModItems.ROTTEN_SIGN);
 
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());
@@ -71,6 +82,21 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALM_SAPLING);
                         entries.add(ModBlocks.GARDEN_CROTON);
                         entries.add(ModBlocks.TALL_GARDEN_CROTON);
+                        entries.add(com.limitless.prism.block.ModBlocks.ROT_BLOCK);
+                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_LOG);
+                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_WOOD);
+                        entries.add(com.limitless.prism.block.ModBlocks.STRIPPED_ROTTEN_LOG);
+                        entries.add(com.limitless.prism.block.ModBlocks.STRIPPED_ROTTEN_WOOD);
+                        entries.add(com.limitless.prism.block.ModBlocks.SHELF_MUSHROOM_BLOCK);
+                        entries.add(com.limitless.prism.block.ModBlocks.COCOON_BLOCK);
+                        entries.add(com.limitless.prism.block.ModBlocks.COLUMBINE);
+                        entries.add(com.limitless.prism.block.ModBlocks.CALLALILY_WHITE);
+                        entries.add(com.limitless.prism.block.ModBlocks.CALLALILY_LILAC);
+                        entries.add(com.limitless.prism.block.ModBlocks.CALLALILY_PINK);
+                        entries.add(com.limitless.prism.block.ModBlocks.CALLALILY_PURPLE);
+                        entries.add(com.limitless.prism.block.ModBlocks.CALLALILY_YELLOW);
+                        entries.add(com.limitless.prism.block.ModBlocks.IVY);
+                        entries.add(com.limitless.prism.block.ModBlocks.UNDERGROWTH);
 
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());
@@ -90,7 +116,7 @@ public class ModItemGroups {
     public static final ItemGroup TERRAIN_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Prism.MOD_ID, "terrain"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.terrain"))
-                    .icon(() -> new ItemStack(ModBlocks.GRASS_TERRAIN)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(Blocks.GRASS_BLOCK)).entries((displayContext, entries) -> {
                         /* ADD ITEMS & BLOCKS HERE */
 
                         entries.add(ModBlocks.GRASS_TERRAIN);
@@ -100,7 +126,21 @@ public class ModItemGroups {
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());
 
+
     public static void registerItemGroups() {
-        Prism.LOGGER.info("Registering Mod Item Groups for " + Prism.MOD_ID + "...");
+        Prism.LOGGER.info("Registering Mod Item Groups for " + Prism.MOD_ID + "..");
+    }
+
+    public static void registerModItems() {
+        Prism.LOGGER.info("Registering Mod Items for " + Prism.MOD_ID);
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS).register(com.limitless.prism.item.ModItems::addItemsToEggItemTabGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(com.limitless.prism.item.ModItems::addItemsToCombatTabGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(com.limitless.prism.item.ModItems::addItemsToColorBlockTabGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(com.limitless.prism.item.ModItems::addItemsToIngredientsTabGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(com.limitless.prism.item.ModItems::addItemsToBuildingBlockTabGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(com.limitless.prism.item.ModItems::addItemsToNaturalBlockTabGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(com.limitless.prism.item.ModItems::addItemsToFunctionalBlockTabGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(com.limitless.prism.item.ModItems::addItemsToToolsTabGroup);
     }
 }

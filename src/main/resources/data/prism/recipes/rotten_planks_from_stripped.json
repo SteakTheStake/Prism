@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "plantsjunk:stripped_rotten_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plantsjunk:rotten_planks"
+  }
+}

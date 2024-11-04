@@ -1,11 +1,15 @@
 package com.limitless.prism.datagen;
 
 import com.limitless.prism.block.ModBlocks;
+import com.limitless.prism.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.TexturedModel;
+import net.minecraft.data.client.Model;
+import net.minecraft.util.Identifier;
+
+import java.util.Optional;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -51,9 +55,46 @@ public class ModModelProvider extends FabricModelProvider {
         marbleTilePool.slab(ModBlocks.MARBLE_TILE_SLAB);
 
 
+        blockStateModelGenerator.registerTintableCross(com.limitless.prism.block.ModBlocks.COLUMBINE, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+        blockStateModelGenerator.registerDoubleBlock(com.limitless.prism.block.ModBlocks.CALLALILY_WHITE, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(com.limitless.prism.block.ModBlocks.CALLALILY_PURPLE, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(com.limitless.prism.block.ModBlocks.CALLALILY_YELLOW, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(com.limitless.prism.block.ModBlocks.CALLALILY_LILAC, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerDoubleBlock(com.limitless.prism.block.ModBlocks.CALLALILY_PINK, BlockStateModelGenerator.TintType.NOT_TINTED);
+
+
+        blockStateModelGenerator.registerLog(com.limitless.prism.block.ModBlocks.STRIPPED_ROTTEN_LOG).log(com.limitless.prism.block.ModBlocks.STRIPPED_ROTTEN_LOG).wood(com.limitless.prism.block.ModBlocks.STRIPPED_ROTTEN_WOOD);
+
+        BlockStateModelGenerator.BlockTexturePool rotten_pool = blockStateModelGenerator.registerCubeAllModelTexturePool(com.limitless.prism.block.ModBlocks.ROTTEN_PLANKS);
+        rotten_pool.family(com.limitless.prism.block.ModBlocks.ROTTEN_FAMILY);
+
+        rotten_pool.stairs(com.limitless.prism.block.ModBlocks.ROTTEN_STAIRS);
+        rotten_pool.slab(com.limitless.prism.block.ModBlocks.ROTTEN_SLAB);
+        rotten_pool.fence(com.limitless.prism.block.ModBlocks.ROTTEN_FENCE);
+        rotten_pool.fenceGate(com.limitless.prism.block.ModBlocks.ROTTEN_FENCE_GATE);
+        rotten_pool.button(com.limitless.prism.block.ModBlocks.ROTTEN_BUTTON);
+        rotten_pool.pressurePlate(com.limitless.prism.block.ModBlocks.ROTTEN_PRESSURE_PLATE);
+        blockStateModelGenerator.registerDoor(com.limitless.prism.block.ModBlocks.ROTTEN_DOOR);
+        blockStateModelGenerator.registerTrapdoor(com.limitless.prism.block.ModBlocks.ROTTEN_TRAPDOOR);
+
+        blockStateModelGenerator.registerSimpleCubeAll(com.limitless.prism.block.ModBlocks.ROT_BLOCK);
+
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
+        itemModelGenerator.register(ModItems.DRAGONFLY_SPAWN_EGG,
+                new Model(Optional.of(new Identifier("item/template_spawn_egg")), Optional.empty()));
+
+        itemModelGenerator.register(ModItems.BUTTERFLY_SPAWN_EGG,
+                new Model(Optional.of(new Identifier("item/template_spawn_egg")), Optional.empty()));
+
+        itemModelGenerator.register(ModItems.CATERPILLAR_SPAWN_EGG,
+                new Model(Optional.of(new Identifier("item/template_spawn_egg")), Optional.empty()));
+
+        itemModelGenerator.register(ModItems.FIREFLY_SWARM_SPAWN_EGG,
+                new Model(Optional.of(new Identifier("item/template_spawn_egg")), Optional.empty()));
     }
 }

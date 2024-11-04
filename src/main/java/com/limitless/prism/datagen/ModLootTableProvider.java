@@ -44,6 +44,33 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.PALM_STAIRS);
         addDrop(ModBlocks.PALM_SLAB, slabDrops(ModBlocks.PALM_SLAB));
+
+
+
+        addDrop(ModBlocks.SHELF_MUSHROOM_BLOCK);
+        addDrop(ModBlocks.COLUMBINE);
+        addDrop(ModBlocks.COCOON_BLOCK);
+
+        addDrop(ModBlocks.ROTTEN_WOOD);
+        addDrop(ModBlocks.STRIPPED_ROTTEN_WOOD);
+        addDrop(ModBlocks.ROTTEN_LOG);
+        addDrop(ModBlocks.STRIPPED_ROTTEN_LOG);
+        addDrop(ModBlocks.ROTTEN_PLANKS);
+        addDrop(ModBlocks.ROT_BLOCK);
+
+        addDrop(ModBlocks.STANDING_ROTTEN_SIGN);
+        addDrop(ModBlocks.WALL_ROTTEN_SIGN);
+
+
+        addDrop(ModBlocks.IVY, grassDrops(ModBlocks.IVY));
+        addDrop(ModBlocks.UNDERGROWTH, grassDrops(ModBlocks.UNDERGROWTH));
+
+        addDrop(ModBlocks.ROTTEN_DOOR, doorDrops(ModBlocks.ROTTEN_DOOR));
+        addDrop(ModBlocks.ROTTEN_SLAB, slabDrops(ModBlocks.ROTTEN_SLAB));
+        addDrop(ModBlocks.ROTTEN_TRAPDOOR);
+        addDrop(ModBlocks.ROTTEN_FENCE);
+        addDrop(ModBlocks.ROTTEN_STAIRS);
+        addDrop(ModBlocks.ROTTEN_FENCE_GATE);
     }
 
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {

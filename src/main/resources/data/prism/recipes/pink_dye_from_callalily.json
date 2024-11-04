@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "plantsjunk:callalily_pink"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:pink_dye"
+  }
+}

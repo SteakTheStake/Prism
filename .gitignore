@@ -40,3 +40,4 @@ replay_*.log
 *.jfr
 Prism-Mod-Resources-0.0.5.zip
 Prism-Mod-Resources-0.0.5/
+/Prism-Mod-Resources/

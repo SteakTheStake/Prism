@@ -1,6 +1,5 @@
 package com.limitless.prism.block.custom;
 
-import java.util.Map;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -14,6 +13,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
+
+import java.util.Map;
 
     public class BuiltCastleBrick
             extends Block {

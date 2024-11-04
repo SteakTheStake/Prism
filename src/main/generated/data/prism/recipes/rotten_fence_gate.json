@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "R": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "plantsjunk:rotten_planks"
+    }
+  },
+  "pattern": [
+    "RXR",
+    "RXR"
+  ],
+  "result": {
+    "item": "plantsjunk:rotten_fence_gate"
+  }
+}

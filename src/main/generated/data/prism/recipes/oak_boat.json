@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "plantsjunk:rotten_planks"
+    }
+  },
+  "pattern": [
+    "R R",
+    "RRR"
+  ],
+  "result": {
+    "item": "minecraft:oak_boat"
+  }
+}

@@ -2,16 +2,11 @@ package com.limitless.prism.world;
 
 import com.limitless.prism.Prism;
 import com.limitless.prism.block.ModBlocks;
-import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
-import net.minecraft.state.property.Properties;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
-import net.minecraft.world.gen.blockpredicate.BlockPredicateType;
-import net.minecraft.world.gen.blockpredicate.MatchingBlockTagPredicate;
-import net.minecraft.world.gen.blockpredicate.OffsetPredicate;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;

@@ -68,14 +68,4 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ROTTEN_STAIRS);
         addDrop(ModBlocks.ROTTEN_FENCE_GATE);
     }
-
-    public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {
-        return BlockLootTableGenerator.dropsWithSilkTouch(drop, (LootPoolEntry.Builder)this.applyExplosionDecay(drop,
-                ((LeafEntry.Builder)
-                        ItemEntry.builder(item)
-                                .apply(SetCountLootFunction
-                                        .builder(UniformLootNumberProvider
-                                                .create(2.0f, 5.0f))))
-                        .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
-    }
 }

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_rotten_log": {
+    "has_rotten_planks": {
       "conditions": {
         "items": [
           {
             "items": [
-              "prism:rotten_log"
+              "prism:rotten_planks"
             ]
           }
         ]
@@ -15,20 +15,21 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:rotten_wood"
+        "recipe": "minecraft:oak_boat"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_rotten_log"
+      "has_rotten_planks",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:rotten_wood"
+      "minecraft:oak_boat"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

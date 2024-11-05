@@ -1,7 +1,7 @@
 package com.limitless.prism.entity.client;
 
-import com.limitless.prism.Prism;
 import com.google.common.collect.Maps;
+import com.limitless.prism.Prism;
 import com.limitless.prism.entity.custom.ButterflyEntity;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;

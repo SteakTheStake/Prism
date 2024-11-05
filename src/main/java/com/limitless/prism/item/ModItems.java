@@ -1,13 +1,10 @@
 package com.limitless.prism.item;
 
 import com.limitless.prism.Prism;
-import com.limitless.prism.block.ModBlocks;
 import com.limitless.prism.entity.ModEntities;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
-import net.minecraft.item.HangingSignItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.SignItem;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

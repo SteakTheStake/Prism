@@ -1,5 +1,5 @@
 {
-  "parent": "prism:block/flower_garden_croton",
+  "parent": "minecraft:block/tinted_flower_pot_cross",
   "textures": {
     "plant": "prism:block/garden_croton"
   }

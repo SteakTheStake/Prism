@@ -13,5 +13,6 @@
   "result": {
     "count": 4,
     "item": "prism:stripped_rotten_wood"
-  }
+  },
+  "show_notification": true
 }

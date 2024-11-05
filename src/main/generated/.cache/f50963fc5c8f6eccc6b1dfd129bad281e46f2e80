@@ -1,3 +1,20 @@
-// 1.20.1	2023-09-07T19:53:30.0941863	Prism/Tags for minecraft:block
-d7adfe643b28854966439554a43fbd4043f2ea30 data\minecraft\tags\blocks\walls.json
+// 1.20.1	2024-11-04T20:20:32.9212684	Prism/Tags for minecraft:block
+fde9587aff18d8f4da328dcbf2fbf31790c989ff data\minecraft\tags\blocks\replaceable.json
+f8b5ce7f2d2d9a76b156b51e6cddaa94f330b402 data\minecraft\tags\blocks\small_flowers.json
+85013db708a6b2fc56c7c3b66d26e8725acd273b data\minecraft\tags\blocks\dirt.json
+7337d2d62e32e10817abb695fd726154c6229f0e data\minecraft\tags\blocks\mushroom_grow_block.json
+23f2c00a311a4d858326bc942d6cf1c1a044c49e data\minecraft\tags\blocks\flowers.json
+8f8ec248cfdf97d3f5ed433f7e3e067dbcb96117 data\minecraft\tags\blocks\wooden_pressure_plates.json
+88384dabfaec23abab3aee501bcb0b96e52c02f2 data\minecraft\tags\blocks\mineable\axe.json
+3b2b4c130436c067cf630351ad1b5f09f1e37dfa data\minecraft\tags\blocks\replaceable_by_trees.json
+313f48a56cdc96370b7169027e2474520bcc25d5 data\minecraft\tags\blocks\wooden_slabs.json
 bf5343d3036973b94862ca044e3be691ae2cd916 data\minecraft\tags\blocks\needs_stone_tool.json
+eff71e0e19d4191b9bc3d8296571413046d3536f data\minecraft\tags\blocks\wooden_buttons.json
+7337d2d62e32e10817abb695fd726154c6229f0e data\minecraft\tags\blocks\logs_that_burn.json
+b7d2636a78afcf90ce1a9df1326379f0058a973a data\minecraft\tags\blocks\fences.json
+2a15e406a7b925cc13e905f77f2aeb581bb6f09f data\minecraft\tags\blocks\wooden_doors.json
+6e79dd952def6c51ae235fe01d164715a43ccf56 data\minecraft\tags\blocks\fence_gates.json
+b7d2636a78afcf90ce1a9df1326379f0058a973a data\minecraft\tags\blocks\wooden_fences.json
+e7be320128c02a7ce9c06a6a5bc089fe3a961828 data\minecraft\tags\blocks\wooden_stairs.json
+85013db708a6b2fc56c7c3b66d26e8725acd273b data\minecraft\tags\blocks\mineable\shovel.json
+d7adfe643b28854966439554a43fbd4043f2ea30 data\minecraft\tags\blocks\walls.json

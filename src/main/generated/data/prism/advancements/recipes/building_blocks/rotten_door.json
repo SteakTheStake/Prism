@@ -13,35 +13,23 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_stick": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:stick"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:rotten_fence_gate"
+        "recipe": "minecraft:rotten_door"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_the_recipe",
       "has_rotten_planks",
-      "has_stick"
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:rotten_fence_gate"
+      "minecraft:rotten_door"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

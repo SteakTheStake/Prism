@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_rotten_planks": {
+    "has_stripped_rotten_log": {
       "conditions": {
         "items": [
           {
             "items": [
-              "prism:rotten_planks"
+              "prism:stripped_rotten_log"
             ]
           }
         ]
@@ -15,20 +15,21 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:rotten_door"
+        "recipe": "minecraft:stripped_rotten_wood"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_the_recipe",
-      "has_rotten_planks"
+      "has_stripped_rotten_log",
+      "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:rotten_door"
+      "minecraft:stripped_rotten_wood"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

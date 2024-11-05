@@ -17,10 +17,9 @@ public class ModItemGroups {
     public static final ItemGroup CONSTRUCTION_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Prism.MOD_ID, "construction"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.construction"))
-                    .icon(() -> new ItemStack(ModItems.PILE_OF_GRAVEL)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.STONE_TILES)).entries((displayContext, entries) -> {
                         /* ADD ITEMS & BLOCKS HERE */
 
-                        entries.add(ModItems.PILE_OF_GRAVEL);
                         entries.add(ModBlocks.CASTLE_BRICKS);
                         entries.add(ModBlocks.BUILT_CASTLE_BRICK_WALL);
                         entries.add(ModBlocks.BUILT_CASTLE_BRICK_FLOOR);
@@ -36,7 +35,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STONE_TILE_ARCH);
                         entries.add(ModBlocks.LARGE_STONE_TILES);
 
-                        entries.add(ModItems.PILE_OF_SAND);
                         entries.add(ModBlocks.DESERT_BRICKS);
                         entries.add(ModBlocks.BUILT_DESERT_BRICK_WALL);
                         entries.add(ModBlocks.BUILT_DESERT_BRICK_FLOOR);
@@ -60,14 +58,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALM_STAIRS);
                         entries.add(ModBlocks.PALM_SLAB);
                         entries.add(ModBlocks.BEACH_PEBBLES);
-                        entries.add(com.limitless.prism.block.ModBlocks.FIREFLY_BOTTLE);
-                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_PLANKS);
-                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_DOOR);
-                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_TRAPDOOR);
-                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_FENCE);
-                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_FENCE_GATE);
-                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_SLAB);
-                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_STAIRS);
+                        entries.add(ModBlocks.FIREFLY_BOTTLE);
+                        entries.add(ModBlocks.ROTTEN_PLANKS);
+                        entries.add(ModBlocks.ROTTEN_DOOR);
+                        entries.add(ModBlocks.ROTTEN_TRAPDOOR);
+                        entries.add(ModBlocks.ROTTEN_FENCE);
+                        entries.add(ModBlocks.ROTTEN_FENCE_GATE);
+                        entries.add(ModBlocks.ROTTEN_SLAB);
+                        entries.add(ModBlocks.ROTTEN_STAIRS);
 
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());
@@ -81,21 +79,34 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALM_SAPLING);
                         entries.add(ModBlocks.GARDEN_CROTON);
                         entries.add(ModBlocks.TALL_GARDEN_CROTON);
-                        entries.add(com.limitless.prism.block.ModBlocks.ROT_BLOCK);
-                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_LOG);
-                        entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_WOOD);
-                        entries.add(com.limitless.prism.block.ModBlocks.STRIPPED_ROTTEN_LOG);
-                        entries.add(com.limitless.prism.block.ModBlocks.STRIPPED_ROTTEN_WOOD);
-                        entries.add(com.limitless.prism.block.ModBlocks.SHELF_MUSHROOM_BLOCK);
-                        entries.add(com.limitless.prism.block.ModBlocks.COCOON_BLOCK);
-                        entries.add(com.limitless.prism.block.ModBlocks.COLUMBINE);
-                        entries.add(com.limitless.prism.block.ModBlocks.CALLALILY_WHITE);
-                        entries.add(com.limitless.prism.block.ModBlocks.CALLALILY_LILAC);
-                        entries.add(com.limitless.prism.block.ModBlocks.CALLALILY_PINK);
-                        entries.add(com.limitless.prism.block.ModBlocks.CALLALILY_PURPLE);
-                        entries.add(com.limitless.prism.block.ModBlocks.CALLALILY_YELLOW);
-                        entries.add(com.limitless.prism.block.ModBlocks.IVY);
-                        entries.add(com.limitless.prism.block.ModBlocks.UNDERGROWTH);
+                        entries.add(ModBlocks.ROT_BLOCK);
+                        entries.add(ModBlocks.ROTTEN_LOG);
+                        entries.add(ModBlocks.ROTTEN_WOOD);
+                        entries.add(ModBlocks.STRIPPED_ROTTEN_LOG);
+                        entries.add(ModBlocks.STRIPPED_ROTTEN_WOOD);
+                        entries.add(ModBlocks.SHELF_MUSHROOM_BLOCK);
+                        entries.add(ModBlocks.COCOON_BLOCK);
+                        entries.add(ModBlocks.COLUMBINE);
+                        entries.add(ModBlocks.CALLALILY_WHITE);
+                        entries.add(ModBlocks.CALLALILY_LILAC);
+                        entries.add(ModBlocks.CALLALILY_PINK);
+                        entries.add(ModBlocks.CALLALILY_PURPLE);
+                        entries.add(ModBlocks.CALLALILY_YELLOW);
+                        entries.add(ModBlocks.IVY);
+                        entries.add(ModBlocks.UNDERGROWTH);
+
+                        /* ADD ITEMS & BLOCKS HERE */
+                    }).build());
+    public static final ItemGroup MOBS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(Prism.MOD_ID, "mobs"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.mobs"))
+                    .icon(() -> new ItemStack(ModBlocks.PALM_SAPLING)).entries((displayContext, entries) -> {
+                        /* ADD ITEMS & BLOCKS HERE */
+
+                        entries.add(ModItems.CATERPILLAR_SPAWN_EGG);
+                        entries.add(ModItems.BUTTERFLY_SPAWN_EGG);
+                        entries.add(ModItems.DRAGONFLY_SPAWN_EGG);
+                        entries.add(ModItems.FIREFLY_SWARM_SPAWN_EGG);
 
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());

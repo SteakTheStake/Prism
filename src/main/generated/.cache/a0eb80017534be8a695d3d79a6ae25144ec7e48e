@@ -1,9 +1,9 @@
-// 1.20.1	2024-11-04T20:20:32.9172672	Prism/Recipes
+// 1.20.1	2024-11-05T12:14:13.0303257	Prism/Recipes
 7136c8d11712918ffa0349ddba5247fa1f443807 data\prism\advancements\recipes\building_blocks\marble_tile_stairs.json
 524a1b0406ba3f7714d36a0c7aacffc77ba1786c data\prism\recipes\rot_block.json
 1b1cb863313bf89db35321fc413d2a2bc5184375 data\prism\recipes\stone_tile_slab.json
-a2e9ad2199eecc5df6d78a8807575f9808d7b100 data\prism\advancements\recipes\building_blocks\castle_brick_arch.json
 a97f3bdc221a3e76e5fa0d75816c5ecc60eff134 data\prism\advancements\recipes\building_blocks\castle_bricks_pressure_plate.json
+a2e9ad2199eecc5df6d78a8807575f9808d7b100 data\prism\advancements\recipes\building_blocks\castle_brick_arch.json
 41cc744e9b48b26597cecb93df84e57f64aa25ed data\prism\recipes\rotten_fence.json
 8100fa8bad95756da238a84e0ab9e934ba6e410e data\prism\recipes\castle_bricks_slab.json
 b25efea988f3cbc1d63f5d16d58d8902d6d04890 data\prism\advancements\recipes\building_blocks\marble_tile_arch.json

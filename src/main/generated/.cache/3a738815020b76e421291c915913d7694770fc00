@@ -1,7 +1,7 @@
-// 1.20.1	2024-11-04T20:20:32.915267	Prism/World Gen
+// 1.20.1	2024-11-05T12:14:13.0283259	Prism/World Gen
 2b6ed46222c2d0e80b4578ea913875ea6d0d1d1a data\prism\worldgen\placed_feature\palm_placed.json
-2128fd24aac7e779870e3e08b091d6609efd4d67 data\prism\worldgen\configured_feature\palm.json
-a2cc651b9175a9fee6d657a1653b9c4fe3885760 data\prism\worldgen\configured_feature\tall_croton.json
-57d8f5d92feded79ab56d84741fa6a44ccd37bdf data\prism\worldgen\placed_feature\garden_croton_placed.json
-be83a79ce3238b046b908c97d824d3237a6b6382 data\prism\worldgen\configured_feature\croton.json
-6fd741679b49fa8b9323909f3005ac1ae7d36c06 data\prism\worldgen\placed_feature\tall_garden_croton_placed.json
+be83a79ce3238b046b908c97d824d3237a6b6382 data\prism\worldgen\configured_feature\garden_croton.json
+a2cc651b9175a9fee6d657a1653b9c4fe3885760 data\prism\worldgen\configured_feature\tall_garden_croton.json
+f9fa12b1d10a81409ce2b7272ff20492f23985cb data\prism\worldgen\configured_feature\palm.json
+ba51a7cb195c1e4d334533ef45fba622e45813f6 data\prism\worldgen\placed_feature\garden_croton_placed.json
+f0341c09375fa8ac3c47c7898ca5b70f4b93d222 data\prism\worldgen\placed_feature\tall_garden_croton_placed.json

@@ -5,8 +5,6 @@
   "entity.prism.fire_fly_swarm": "Firefly Swarm",
 
 
-  "item.prism.pile_of_gravel": "Pile of Gravel",
-  "item.prism.pile_of_sand": "Pile of Sand",
   "item.prism.palm_sapling": "Palm Sapling",
   "Item.prism.garden_croton": "Garden Croton",
   "item.prism.butterfly_spawn_egg": "Butterfly Spawn Egg",
@@ -177,6 +175,8 @@
   "itemGroup.construction": "Construction Blocks",
 
   "itemGroup.organic": "Organic Blocks",
+
+  "itemGroup.mobs": "Mobs",
 
   "itemGroup.terrain": "Terrain Blocks",
 

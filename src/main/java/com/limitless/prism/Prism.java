@@ -7,6 +7,7 @@ import com.limitless.prism.entity.custom.CaterpillarEntity;
 import com.limitless.prism.entity.custom.DragonflyEntity;
 import com.limitless.prism.entity.custom.FireFlySwarmEntity;
 import com.limitless.prism.item.ModItemGroups;
+import com.limitless.prism.item.ModItems;
 import com.limitless.prism.screen.ModScreenHandlers;
 import com.limitless.prism.util.ModRegistries;
 import com.limitless.prism.world.gen.ModFoliagePlacerTypes;
@@ -26,6 +27,7 @@ public class Prism implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModItemGroups.registerModItems();
 		ModRegistries.registerModStuffs();

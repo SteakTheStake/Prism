@@ -9,6 +9,7 @@ import com.limitless.prism.entity.custom.FireFlySwarmEntity;
 import com.limitless.prism.item.ModItemGroups;
 import com.limitless.prism.screen.ModScreenHandlers;
 import com.limitless.prism.util.ModRegistries;
+import com.limitless.prism.world.gen.ModFoliagePlacerTypes;
 import com.limitless.prism.world.gen.ModTreeDecorator;
 import com.limitless.prism.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
@@ -31,6 +32,7 @@ public class Prism implements ModInitializer {
 		ModWorldGeneration.generateModWorldGeneration();
 		ModScreenHandlers.registerScreenHandler();
 		ModTreeDecorator.register();
+		ModFoliagePlacerTypes.register();
 
 		// Burnables
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.ROTTEN_LOG, 6, 10);

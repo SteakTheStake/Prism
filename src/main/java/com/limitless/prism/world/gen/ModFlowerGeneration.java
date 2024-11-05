@@ -8,7 +8,16 @@ import net.minecraft.world.gen.GenerationStep;
 
 public class ModFlowerGeneration {
     public static void generateFlowers() {
-        BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.DESERT),
-                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.CROTON_PLACED_KEY);
+        BiomeModifications.addFeature(
+                BiomeSelectors.includeByKey(BiomeKeys.JUNGLE, BiomeKeys.SPARSE_JUNGLE),
+                GenerationStep.Feature.VEGETAL_DECORATION,
+                ModPlacedFeatures.CROTON_PLACED_KEY
+        );
+
+        BiomeModifications.addFeature(
+                BiomeSelectors.includeByKey(BiomeKeys.JUNGLE, BiomeKeys.SPARSE_JUNGLE),
+                GenerationStep.Feature.VEGETAL_DECORATION,
+                ModPlacedFeatures.TALL_CROTON_PLACED_KEY
+        );
     }
 }

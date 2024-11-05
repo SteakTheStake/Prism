@@ -4,8 +4,6 @@ import com.limitless.prism.Prism;
 import com.limitless.prism.block.custom.*;
 import com.limitless.prism.world.flower.CrotonFlowerGenerator;
 import com.limitless.prism.world.tree.PalmSaplingGenerator;
-import com.terraformersmc.terraform.sign.block.TerraformSignBlock;
-import com.terraformersmc.terraform.sign.block.TerraformWallSignBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -213,12 +211,6 @@ public class ModBlocks {
                     FabricBlockSettings.copyOf(Blocks.OAK_PRESSURE_PLATE), BlockSetType.OAK));
     public static final Identifier ROTTEN_SIGN_TEXTURE = new Identifier(Prism.MOD_ID, "entity/signs/rotten");
 
-    public static final Block STANDING_ROTTEN_SIGN = Registry.register(Registries.BLOCK, new Identifier(Prism.MOD_ID, "rotten_standing_sign"),
-            new TerraformSignBlock(ROTTEN_SIGN_TEXTURE, FabricBlockSettings.copyOf(Blocks.OAK_SIGN)));
-
-    public static final Block WALL_ROTTEN_SIGN = Registry.register(Registries.BLOCK, new Identifier(Prism.MOD_ID, "rotten_wall_sign"),
-            new TerraformWallSignBlock(ROTTEN_SIGN_TEXTURE, FabricBlockSettings.copyOf(com.limitless.prism.block.ModBlocks.STANDING_ROTTEN_SIGN)));
-
     public static final Block ROTTEN_STAIRS = registerBlock("rotten_stairs",
             new StairsBlock(com.limitless.prism.block.ModBlocks.ROTTEN_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_STAIRS).burnable()));
     public static final Block ROTTEN_SLAB = registerBlock("rotten_slab",
@@ -235,7 +227,6 @@ public class ModBlocks {
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().burnable(), BlockSetType.OAK));
 
     public static final BlockFamily ROTTEN_FAMILY = BlockFamilies.register(com.limitless.prism.block.ModBlocks.ROTTEN_PLANKS)
-            .sign(com.limitless.prism.block.ModBlocks.STANDING_ROTTEN_SIGN, com.limitless.prism.block.ModBlocks.WALL_ROTTEN_SIGN)
             .group("wooden").unlockCriterionName("has_planks").build();
 
     /* END Plants */

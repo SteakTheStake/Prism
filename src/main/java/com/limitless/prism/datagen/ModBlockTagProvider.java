@@ -104,8 +104,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(com.limitless.prism.block.ModBlocks.ROTTEN_FENCE_GATE)
                 .add(com.limitless.prism.block.ModBlocks.ROTTEN_SLAB)
                 .add(com.limitless.prism.block.ModBlocks.ROTTEN_STAIRS)
-                .add(com.limitless.prism.block.ModBlocks.WALL_ROTTEN_SIGN)
-                .add(com.limitless.prism.block.ModBlocks.STANDING_ROTTEN_SIGN)
                 .add(com.limitless.prism.block.ModBlocks.ROTTEN_LOG)
                 .add(com.limitless.prism.block.ModBlocks.ROTTEN_WOOD)
                 .add(com.limitless.prism.block.ModBlocks.STRIPPED_ROTTEN_LOG)

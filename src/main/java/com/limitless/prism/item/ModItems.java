@@ -24,8 +24,6 @@ public class ModItems {
     public static final Item DRAGONFLY_SPAWN_EGG = registerItem("dragonfly_spawn_egg", new SpawnEggItem(ModEntities.DRAGONFLY, 0x2C0818, 0x658DD3, new FabricItemSettings()));
 
 
-    public static final Item ROTTEN_SIGN = registerItem("rotten_sign", new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.STANDING_ROTTEN_SIGN, ModBlocks.WALL_ROTTEN_SIGN));
-
     private static void addItemsToIngredientTabGroup(FabricItemGroupEntries entries) {
         entries.add(PILE_OF_SAND);
 

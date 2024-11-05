@@ -216,17 +216,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .offerTo(exporter, new Identifier(getRecipeName(com.limitless.prism.block.ModBlocks.ROTTEN_FENCE_GATE)));
 
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModItems.ROTTEN_SIGN, 3)
-                .pattern("RRR")
-                .pattern("RRR")
-                .pattern(" X ")
-                .input('R', com.limitless.prism.block.ModBlocks.ROTTEN_PLANKS)
-                .input('X', Items.STICK)
-                .criterion(hasItem(com.limitless.prism.block.ModBlocks.ROTTEN_PLANKS), conditionsFromItem(com.limitless.prism.block.ModBlocks.ROTTEN_PLANKS))
-                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ROTTEN_SIGN)));
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, com.limitless.prism.block.ModBlocks.ROTTEN_SLAB, 6)
                 .pattern("RRR")
                 .input('R', com.limitless.prism.block.ModBlocks.ROTTEN_PLANKS)

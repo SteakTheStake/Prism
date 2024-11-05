@@ -58,10 +58,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ROTTEN_PLANKS);
         addDrop(ModBlocks.ROT_BLOCK);
 
-        addDrop(ModBlocks.STANDING_ROTTEN_SIGN);
-        addDrop(ModBlocks.WALL_ROTTEN_SIGN);
-
-
         addDrop(ModBlocks.IVY, grassDrops(ModBlocks.IVY));
         addDrop(ModBlocks.UNDERGROWTH, grassDrops(ModBlocks.UNDERGROWTH));
 

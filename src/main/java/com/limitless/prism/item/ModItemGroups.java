@@ -68,7 +68,6 @@ public class ModItemGroups {
                         entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_FENCE_GATE);
                         entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_SLAB);
                         entries.add(com.limitless.prism.block.ModBlocks.ROTTEN_STAIRS);
-                        entries.add(com.limitless.prism.item.ModItems.ROTTEN_SIGN);
 
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());

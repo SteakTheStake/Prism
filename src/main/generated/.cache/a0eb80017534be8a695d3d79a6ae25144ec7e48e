@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-05T12:14:13.0303257	Prism/Recipes
+// 1.20.1	2024-11-06T14:14:07.4083795	Prism/Recipes
 7136c8d11712918ffa0349ddba5247fa1f443807 data\prism\advancements\recipes\building_blocks\marble_tile_stairs.json
 524a1b0406ba3f7714d36a0c7aacffc77ba1786c data\prism\recipes\rot_block.json
 1b1cb863313bf89db35321fc413d2a2bc5184375 data\prism\recipes\stone_tile_slab.json
@@ -40,8 +40,8 @@ ddbf8c64507d3f51dbdcd555c239bb6f8c220ab1 data\prism\recipes\stone_tile_stairs.js
 71ea3fe8f67f275d724f5af5b722225c67be175e data\prism\advancements\recipes\building_blocks\rotten_stairs.json
 075093ddf8c2306afad2e031e645e79550288cf3 data\prism\advancements\recipes\building_blocks\castle_bricks_slab.json
 342b788382955549c23f51a75f36c95869279624 data\prism\advancements\recipes\building_blocks\desert_brick_stairs.json
-55260010f4e48b8e33e0e42de4fc28a460ddd897 data\prism\recipes\oak_boat.json
 22048b1bde858c430e8fbafa4d991f7b1c459621 data\prism\advancements\recipes\building_blocks\rotten_slab.json
+55260010f4e48b8e33e0e42de4fc28a460ddd897 data\prism\recipes\oak_boat.json
 68f646f1e3cb62020f68b42ceb5f6a0e482433d6 data\prism\recipes\desert_bricks_pressure_plate.json
 987860a7d63686821e7928f13fa1313a97e43e8e data\prism\advancements\recipes\building_blocks\castle_brick_stairs.json
 8e3b05d90d59769028c80b29c3a71f6c31f8b11d data\prism\advancements\recipes\building_blocks\rotten_wood.json

@@ -27,7 +27,7 @@
     "temperature": 2,
     "vegetation": 0,
     "continents": 0,
-    "erosion": 4,
+    "erosion": 5,
     "depth": 1,
     "ridges": 2,
     "initial_density_without_jaggedness": 0,
@@ -37,8 +37,8 @@
         "type": "minecraft:y_clamped_gradient",
         "from_y": -64,
         "to_y": 384,
-        "from_value": 1.2,
-        "to_value": -2
+        "from_value": 1.5,
+        "to_value": -5
       },
       "argument2": {
         "type": "minecraft:noise",

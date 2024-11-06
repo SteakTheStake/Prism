@@ -1,0 +1,37 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "prism:smooth_desert_dunes",
+        "biome_source": {
+          "type": "minecraft:fixed",
+          "biome": "prism:smooth_desert_dunes"
+        }
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "prism:smooth_desert_dunes_end",
+        "biome_source": {
+          "type": "minecraft:fixed",
+          "biome": "prism:smooth_desert_dunes_end"
+        }
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "prism:smooth_desert_dunes_nether",
+        "biome_source": {
+          "type": "minecraft:fixed",
+          "biome": "prism:smooth_desert_dunes_nether"
+        }
+      }
+    }
+  }
+}

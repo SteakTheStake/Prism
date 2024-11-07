@@ -58,7 +58,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PALM_STAIRS);
                         entries.add(ModBlocks.PALM_SLAB);
                         entries.add(ModBlocks.BEACH_PEBBLES);
-                        entries.add(ModBlocks.FIREFLY_BOTTLE);
                         entries.add(ModBlocks.ROTTEN_PLANKS);
                         entries.add(ModBlocks.ROTTEN_DOOR);
                         entries.add(ModBlocks.ROTTEN_TRAPDOOR);
@@ -85,7 +84,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_ROTTEN_LOG);
                         entries.add(ModBlocks.STRIPPED_ROTTEN_WOOD);
                         entries.add(ModBlocks.SHELF_MUSHROOM_BLOCK);
-                        entries.add(ModBlocks.COCOON_BLOCK);
                         entries.add(ModBlocks.COLUMBINE);
                         entries.add(ModBlocks.CALLALILY_WHITE);
                         entries.add(ModBlocks.CALLALILY_LILAC);
@@ -94,19 +92,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CALLALILY_YELLOW);
                         entries.add(ModBlocks.IVY);
                         entries.add(ModBlocks.UNDERGROWTH);
-
-                        /* ADD ITEMS & BLOCKS HERE */
-                    }).build());
-    public static final ItemGroup MOBS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(Prism.MOD_ID, "mobs"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.mobs"))
-                    .icon(() -> new ItemStack(ModBlocks.PALM_SAPLING)).entries((displayContext, entries) -> {
-                        /* ADD ITEMS & BLOCKS HERE */
-
-                        entries.add(ModItems.CATERPILLAR_SPAWN_EGG);
-                        entries.add(ModItems.BUTTERFLY_SPAWN_EGG);
-                        entries.add(ModItems.DRAGONFLY_SPAWN_EGG);
-                        entries.add(ModItems.FIREFLY_SWARM_SPAWN_EGG);
 
                         /* ADD ITEMS & BLOCKS HERE */
                     }).build());

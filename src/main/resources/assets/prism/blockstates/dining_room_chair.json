@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=east": {
+			"model": "prism:block/dining_room_chair"
+		},
+		"facing=west": {
+			"model": "prism:block/dining_room_chair",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "prism:block/dining_room_chair",
+			"y": 270
+		},
+		"facing=north": {
+			"model": "prism:block/dining_room_chair",
+			"y": 180
+		}
+	}
+}

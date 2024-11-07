@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "layers=8": {
+      "model": "minecraft:andesite_block"
+    }
+  }
+}

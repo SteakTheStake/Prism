@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "minecraft:andesite_height2"
+    },
+    "layers=2": {
+      "model": "minecraft:andesite_height4"
+    },
+    "layers=3": {
+      "model": "minecraft:andesite_height6"
+    },
+    "layers=4": {
+      "model": "minecraft:andesite_height8"
+    },
+    "layers=5": {
+      "model": "minecraft:andesite_height10"
+    },
+    "layers=6": {
+      "model": "minecraft:andesite_height12"
+    },
+    "layers=7": {
+      "model": "minecraft:andesite_height14"
+    },
+    "layers=8": {
+      "model": "minecraft:andesite_block"
+    }
+  }
+}

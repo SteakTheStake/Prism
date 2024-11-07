@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "prism:block/basket_of_potato"
+    },
+    "facing=south": {
+      "model": "prism:block/basket_of_potato",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prism:block/basket_of_potato",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "prism:block/basket_of_potato",
+      "y": 90
+    }
+  }
+}

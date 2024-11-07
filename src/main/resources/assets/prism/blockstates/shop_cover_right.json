@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "prism:block/shop_cover_r"
+    },
+    "facing=south": {
+      "model": "prism:block/shop_cover_r",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prism:block/shop_cover_r",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "prism:block/shop_cover_r",
+      "y": 90
+    }
+  }
+}

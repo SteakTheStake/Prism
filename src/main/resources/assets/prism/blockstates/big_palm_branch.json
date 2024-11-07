@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "prism:block/big_palm_branch"
+    },
+    "facing=south": {
+      "model": "prism:block/big_palm_branch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prism:block/big_palm_branch",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "prism:block/big_palm_branch",
+      "y": 90
+    }
+  }
+}

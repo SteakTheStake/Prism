@@ -149,12 +149,6 @@ public class ModBlocks {
     /* START Plants */
     public static final IntProperty SIZE = IntProperty.of("size", 0, 2);
 
-    public static final Block FIREFLY_BOTTLE = registerBlock("firefly_bottle",
-            new com.limitless.prism.block.custom.FireflyBottleBlock(FabricBlockSettings.copyOf(Blocks.GLASS).sounds(BlockSoundGroup.GLASS).luminance(15)));
-
-    public static final Block COCOON_BLOCK = registerBlock("cocoon_block",
-            new com.limitless.prism.block.custom.CocoonBlock(FabricBlockSettings.copyOf(Blocks.HONEY_BLOCK).sounds(BlockSoundGroup.HONEY)));
-
     public static final Block ROT_BLOCK = registerBlock("rot_block",
             new com.limitless.prism.block.custom.RotBlock(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.WET_GRASS).ticksRandomly()));
 

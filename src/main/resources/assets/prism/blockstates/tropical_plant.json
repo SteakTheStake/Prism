@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "prism:block/tropical_plant"
+    },
+    "facing=south": {
+      "model": "prism:block/tropical_plant",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prism:block/tropical_plant",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "prism:block/tropical_plant",
+      "y": 90
+    }
+  }
+}

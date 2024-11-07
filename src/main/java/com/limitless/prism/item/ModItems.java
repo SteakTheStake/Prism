@@ -1,22 +1,13 @@
 package com.limitless.prism.item;
 
 import com.limitless.prism.Prism;
-import com.limitless.prism.entity.ModEntities;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
-import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.item.SpawnEggItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item CATERPILLAR_SPAWN_EGG = registerModItem("caterpillar_spawn_egg", new SpawnEggItem(ModEntities.CATERPILLAR, 0x308723, 0xF0DA1B, new FabricItemSettings()));
-    public static final Item BUTTERFLY_SPAWN_EGG = registerModItem("butterfly_spawn_egg", new SpawnEggItem(ModEntities.BUTTERFLY, 0x261007, 0xD56C24, new FabricItemSettings()));
-    public static final Item FIREFLY_SWARM_SPAWN_EGG = registerModItem("firefly_swarm_spawn_egg", new SpawnEggItem(ModEntities.FIRE_FLY_SWARM, 0x0E0709, 0x9DFF18, new FabricItemSettings()));
-    public static final Item DRAGONFLY_SPAWN_EGG = registerModItem("dragonfly_spawn_egg", new SpawnEggItem(ModEntities.DRAGONFLY, 0x2C0818, 0x658DD3, new FabricItemSettings()));
-
     static void addItemsToCombatTabGroup(FabricItemGroupEntries entries) {
 
     }

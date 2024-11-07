@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "minecraft:grass_height2"
+    },
+    "layers=2": {
+      "model": "minecraft:grass_height4"
+    },
+    "layers=3": {
+      "model": "minecraft:grass_height6"
+    },
+    "layers=4": {
+      "model": "minecraft:grass_height8"
+    },
+    "layers=5": {
+      "model": "minecraft:grass_height10"
+    },
+    "layers=6": {
+      "model": "minecraft:grass_height12"
+    },
+    "layers=7": {
+      "model": "minecraft:grass_height14"
+    },
+    "layers=8": {
+      "model": "minecraft:grass_block"
+    }
+  }
+}

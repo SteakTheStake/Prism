@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "prism:block/big_oak_leaves"
+    },
+    "facing=south": {
+      "model": "prism:block/big_oak_leaves",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prism:block/big_oak_leaves",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "prism:block/big_oak_leaves",
+      "y": 90
+    }
+  }
+}

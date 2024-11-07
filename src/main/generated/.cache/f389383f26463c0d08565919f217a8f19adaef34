@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-06T14:14:07.4063789	Prism/Block Loot Tables
+// 1.20.1	2024-11-06T16:43:45.3712021	Prism/Block Loot Tables
 423de75897c6368043066491f062437d25125a5f data\prism\loot_tables\blocks\castle_bricks_slab.json
 0a7aeb1bf601ee8e150ad2724d75f1b21c1f5848 data\prism\loot_tables\blocks\rotten_wood.json
 c48ab6ad26a8b2b4044265cbd2a1327590d0e1a9 data\prism\loot_tables\blocks\palm_slab.json
@@ -30,5 +30,4 @@ fbead0f85eee19f02e4440582ad222432a9c1261 data\prism\loot_tables\blocks\ivy.json
 265784f05b52a9e023ca7dfa3992cb351f6552b1 data\prism\loot_tables\blocks\shelf_mushroom.json
 f2d1a8bdac25e2271111a1366e3e78c7ea361e40 data\prism\loot_tables\blocks\castle_bricks_button.json
 827f6a04f06d1536a59837bf69571e4d91179cc7 data\prism\loot_tables\blocks\marble_tile_slab.json
-4be1b3ddb4f727c214db22a7b9389c10dfde1644 data\prism\loot_tables\blocks\cocoon_block.json
 b309b71ac67a41e5934bdc782c8eb75504fb0105 data\prism\loot_tables\blocks\castle_brick_wall.json

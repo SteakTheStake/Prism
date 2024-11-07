@@ -1,18 +1,7 @@
 {
-  "entity.prism.butterfly": "Butterfly",
-  "entity.prism.dragonfly": "Dragonfly",
-  "entity.prism.caterpillar": "Caterpillar",
-  "entity.prism.fire_fly_swarm": "Firefly Swarm",
-
 
   "item.prism.palm_sapling": "Palm Sapling",
   "Item.prism.garden_croton": "Garden Croton",
-  "item.prism.butterfly_spawn_egg": "Butterfly Spawn Egg",
-  "item.prism.firefly_swarm_spawn_egg": "Firefly Swarm Spawn Egg",
-  "item.prism.dragonfly_spawn_egg": "Dragonfly Spawn Egg",
-  "item.prism.caterpillar_spawn_egg": "Caterpillar Swarm Spawn Egg",
-  "item.prism.firefly_bottle": "Bottle Of Fireflies",
-  "item.prism.cocoon_block": "Butterfly Cocoon",
 
 
   "block.prism.castle_bricks": "Castle Bricks",
@@ -176,8 +165,6 @@
 
   "itemGroup.organic": "Organic Blocks",
 
-  "itemGroup.mobs": "Mobs",
-
   "itemGroup.terrain": "Terrain Blocks",
 
   "itemGroup.decoration": "Decoration Blocks",
@@ -185,5 +172,9 @@
 
   "biome.prism.rolling_hills": "Rolling Hills",
 
-  "biome.prism.smooth_desert_dunes": "Smooth Desert Dunes"
+  "biome.prism.smooth_desert_dunes": "Smooth Desert Dunes",
+
+  "biome.prism.smooth_desert_dunes_end": "Smooth Desert End",
+
+  "biome.prism.smooth_desert_dunes_nether": "Smooth Desert Nether"
 }

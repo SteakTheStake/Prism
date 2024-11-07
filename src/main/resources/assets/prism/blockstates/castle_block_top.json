@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "prism:block/castle_block_top"
+    },
+    "facing=south": {
+      "model": "prism:block/castle_block_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prism:block/castle_block_top",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "prism:block/castle_block_top",
+      "y": 90
+    }
+  }
+}

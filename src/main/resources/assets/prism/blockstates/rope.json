@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "prism:block/rope",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "prism:block/rope"
+    },
+    "axis=z": {
+      "model": "prism:block/rope",
+      "x": 90
+    }
+  }
+}

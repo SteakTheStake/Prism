@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "prism:block/stairs"
+		},
+		"facing=south": {
+			"model": "prism:block/stairs",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "prism:block/stairs",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "prism:block/stairs",
+			"y": 90
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "prism:block/firefly_bottle"
+    },
+    "hanging=true": {
+      "model": "prism:block/firefly_bottle_hanging"
+    }
+  }
+}

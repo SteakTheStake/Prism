@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "rope",
+	"textures": {
+		"0": "prism:block/rope",
+		"particle": "prism:block/rope"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 0],
+			"to": [8.5, 1.5, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.75, 0.75, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 1.5, 1.5], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 0, 1.5, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 1.5, 1.5], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [3, 0, 4.5, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [1.5, 0, 3, 16], "texture": "#0"},
+				"down": {"uv": [4.5, 0, 6, 16], "texture": "#0", "cullface": "down"}
+			}
+		}
+	]
+}

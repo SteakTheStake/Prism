@@ -26,10 +26,6 @@ public class ModModelProvider extends FabricModelProvider {
         stoneTilePool.stairs(ModBlocks.STONE_TILE_STAIRS);
         stoneTilePool.slab(ModBlocks.STONE_TILE_SLAB);
 
-
-        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.GARDEN_CROTON, ModBlocks.POTTED_GARDEN_CROTON, BlockStateModelGenerator.TintType.TINTED);
-
-
         BlockStateModelGenerator.BlockTexturePool desertPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DESERT_BRICKS);
 
         desertPool.stairs(ModBlocks.DESERT_BRICK_STAIRS);
